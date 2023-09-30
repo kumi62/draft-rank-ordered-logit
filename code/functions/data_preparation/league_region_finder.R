@@ -1,0 +1,46 @@
+# Map league to a geographical region
+league_region_finder = function(league) {
+  region = dplyr::case_when(
+    league %in% c("NHL", "AHL", "ECHL", "Brick Invitational") ~ "CAN/USA",
+    grepl("CIS|USports|CWG|CAHS|CPSHA", league) ~ "Canada",
+    league %in% c("OHL", "OJHL", "NOJHL", "GOJHL") ~ "Ontario",
+    grepl("ALLIANCE|CCHL|Peterborough|OHF|OHA|OEHL|NOHL|GTHL|HEO|ETAHL|Big Nickel|SIJHL|SCTA|MetJHL", league) ~ "Ontario",
+    league %in% c("WHL", "BCHL", "MJHL", "SJHL", "AJHL", "ACAC") ~ "Western Canada",
+    grepl("AEHL|Alberta|AMBHL|AMMHL|AMHL|CSSHL|WAAA|WCCC|NCHL|BCIHL|BCEHL|PJHL|PIJHL|SMAAAHL", league) ~ "Western Canada",
+    league %in% c("QMJHL", "QGC", "NSMMHL", "NSMBHL", "QMAA", "QBAA", "QMAAA", "QBAAA", "MJAHL", "QMEAA") ~ "Quebec/Atlantic Canada",
+    grepl("ACC|NSJHL|NSU18|NS Bantam|NSMM|NBPEI|NBMM|NBBA", league) ~ "Quebec/Atlantic Canada",
+    league %in% c("CSHL", "EHL", "AAHL", "13U A", "13U AA", "13U AAA", "14U A", "14U AA", "14U AAA", "15U A", "15U AA", "15U AAA", "15O AAA", "16U A", "16U AA", "16U AAA", "18U A", "18U AA", "18U AAA") ~ "USA",
+    grepl("USHS|NCAA|USHL|NAHL|HPHL|UMHSEHL|USDP|MSHL|SPHL|UMHS|NEPACK|T1EHL|USA|NCDC|MNBEL|ECEL|EHF|WSI|NAPHL|AYHL|AtJHL|BEAST|NA3HL|MNHP|MN State|MHSL|NEFPHL|MPHL", league) ~ "USA",
+    league %in% c("KHL", "VHL", "MHL", "MHL B", "NMHL") ~ "Russia",
+    grepl("Russia", league) ~ "Russia",
+    league %in% c("SHL", "U16 SM", "U16 Elit", "U18 Elit", "U20 Elit", "Division 1", "Division 2", "Division 3", "Division 4") ~ "Sweden",
+    grepl("Allsvenskan|Nationell|Ettan|SuperElit|J20 Elit|J18 Elit|J20 Region|J18 Region|J16 Region|U20 Div|U18 Div|U16 Div|J20 Div|J18 Div|J16 Div", league) ~ "Sweden",
+    grepl("SM-sarja|SM-liiga|Mestis|Liiga|Suomi", league) ~ "Finland",
+    league %in% c("NL", "SL", "NLA", "NLB", "NLA Q", "MSL", "Elite Jr. A", "Elite Jr. B", "U20-Elit", "U20-Top") ~ "Switzerland",
+    grepl("Mini|Novizen|Swiss|Spengler", league) ~ "Switzerland",
+    grepl("DEL|DNL|Germany", league) ~ "Germany",
+    grepl("AlpsHL|Austria|EBEL|EBJL|ICEHL|ICEJL|RBHRC|RBHS|ICEYSL|EBYSL", league) ~ "Austria",
+    grepl("Norway", league) ~ "Norway",
+    grepl("Denmark|Danish", league) ~ "Denmark",
+    grepl("Slovakia", league) ~ "Slovakia",
+    grepl("Slovenia", league) ~ "Slovenia",
+    grepl("Belarus", league) ~ "Belarus",
+    grepl("Ukraine", league) ~ "Ukraine",
+    grepl("Estonia", league) ~ "Estonia",
+    grepl("Hungary", league) ~ "Hungary",
+    grepl("China", league) ~ "China",
+    grepl("France|French|Ligue Magnus", league) ~ "France",
+    grepl("Latvia", league) ~ "Latvia",
+    grepl("EIHL", league) ~ "Great Britain",
+    grepl("Italy|Italia", league) ~ "Italy",
+    grepl("Kazakhstan", league) ~ "Kazakhstan",
+    grepl("Czech|DHL Cup|DHL Super", league) ~ "Czechia",
+    grepl("EUHL", league) ~ "Europe",
+    grepl("Japan", league) ~ "Japan",
+    grepl("AIHL", league) ~ "Australia",
+    grepl("NZHL", league) ~ "New Zealand",
+    grepl("WJC|WC|OG|International", league) ~ "International"
+  )
+  
+  return(region)
+}
