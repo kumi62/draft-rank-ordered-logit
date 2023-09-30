@@ -1,5 +1,5 @@
 # Convert data frame into list that is compatible with our Stan models
-convert_rankings_to_list = function(rankings, prior, include_prior = TRUE) {
+convert_rankings_to_list = function(rankings, agencies, prior, player_data_model, include_prior = TRUE) {
   # Create matrix of player IDs for each ranking set (row) and rank (col)
   rankings_matrix = rankings %>%
     dplyr::select(resource_id, ranking) %>%

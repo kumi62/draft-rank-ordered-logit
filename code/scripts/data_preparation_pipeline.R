@@ -187,7 +187,27 @@ if (nrow(ranking_data_full %>% dplyr::select(all_of(colnames(ranking_data_cleane
 ranking_data_model = restructure_ranking_data(ranking_data_full, player_data_model)
 
 # Convert data frame into list that is compatible with our Stan models
-ranking_data_list = convert_rankings_to_list(ranking_data_model$rankings, ranking_data_model$prior)
+ranking_data_list = convert_rankings_to_list(
+  ranking_data_model$rankings,
+  ranking_data_model$agencies,
+  ranking_data_model$prior
+)
+
+
+# Also run for 2021 and 2022 individually
+player_data_model_21 = prep_player_data_for_model(player_data_full, ranking_data_cleaned, years = c(2021))
+ranking_data_full_21 = ranking_data_cleaned %>%
+  dplyr::filter(year == 2021) %>%
+  dplyr::left_join(player_data_model_21, dplyr::join_by(player, year == draft_year))
+ranking_data_model_21 = restructure_ranking_data(ranking_data_full_21, player_data_model_21)
+ranking_data_list_21 = convert_rankings_to_list(ranking_data_model_21$rankings, ranking_data_model_21$agencies, ranking_data_model_21$prior)
+
+player_data_model_22 = prep_player_data_for_model(player_data_full, ranking_data_cleaned, years = c(2022))
+ranking_data_full_22 = ranking_data_cleaned %>%
+  dplyr::filter(year == 2022) %>%
+  dplyr::left_join(player_data_model_22, dplyr::join_by(player, year == draft_year))
+ranking_data_model_22 = restructure_ranking_data(ranking_data_full_22, player_data_model_22)
+ranking_data_list_22 = convert_rankings_to_list(ranking_data_model_22$rankings, ranking_data_model_22$agencies, ranking_data_model_22$prior)
 
 
 
@@ -198,3 +218,14 @@ write_csv(player_data_model, "data/model_input/model_player_data.csv")
 write_rds(ranking_data_model$rankings, "data/model_input/model_rankings_data.Rda")
 write_csv(ranking_data_model$agencies, "data/model_input/model_agencies_data.csv")
 write_rds(ranking_data_list, "data/model_input/model_data_list.Rda")
+
+write_csv(player_data_model_21, "data/model_input/model_player_data_2021.csv")
+write_rds(ranking_data_model_21$rankings, "data/model_input/model_rankings_data_2021.Rda")
+write_csv(ranking_data_model_21$agencies, "data/model_input/model_agencies_data_2021.csv")
+write_rds(ranking_data_list_21, "data/model_input/model_data_list_2021.Rda")
+
+write_csv(player_data_model_22, "data/model_input/model_player_data_2022.csv")
+write_rds(ranking_data_model_22$rankings, "data/model_input/model_rankings_data_2022.Rda")
+write_csv(ranking_data_model_22$agencies, "data/model_input/model_agencies_data_2022.csv")
+write_rds(ranking_data_list_22, "data/model_input/model_data_list_2022.Rda")
+

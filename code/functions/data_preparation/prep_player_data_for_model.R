@@ -6,10 +6,10 @@ source("code/functions/data_preparation/extract_primary_league.R")
 source("code/functions/data_preparation/extract_primary_region.R")
 source("code/functions/data_preparation/extract_age_class.R")
 
-prep_player_data_for_model = function(player_data_full, ranking_data_cleaned) {
+prep_player_data_for_model = function(player_data_full, ranking_data_cleaned, years = c(2019, 2020, 2021, 2022)) {
   player_data_model = player_data_full %>%
     # Take only 2019 to 2022 drafts
-    dplyr::filter(draft_year %in% c(2019, 2020, 2021, 2022)) %>%
+    dplyr::filter(draft_year %in% years) %>%
     # Create nation of origin covariate
     dplyr::mutate(nation_origin = dplyr::case_when(
       nation_primary == "Canada" ~ "CAN",
@@ -88,7 +88,11 @@ prep_player_data_for_model = function(player_data_full, ranking_data_cleaned) {
       TRUE ~ continents
     )) %>%
     # Create ID number for Stan model
-    dplyr::semi_join(ranking_data_cleaned, by = c("player", "draft_year" = "year")) %>%
+    dplyr::semi_join(
+      ranking_data_cleaned %>%
+        dplyr::filter(year %in% years),
+      by = c("player", "draft_year" = "year")
+    ) %>%
     dplyr::arrange(player_id) %>%
     dplyr::ungroup() %>%
     dplyr::mutate(stan_id = dplyr::row_number()) %>%
