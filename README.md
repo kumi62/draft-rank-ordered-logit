@@ -45,3 +45,8 @@ The outputted models from these scripts are stored in the `data/model_output` su
 
 
 
+
+## Reproducibility
+
+The models and results found in the corresponding paper can be reproduced by running the `code/scripts/model_single_season.R` and `code/scripts/model_multiple_seasons.R` scripts.
+
