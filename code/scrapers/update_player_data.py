@@ -1,10 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
-Created on Mon Aug 22 22:20:01 2022
-
-@author: brendankumagai
-
 The purpose of this file is to update the "player_data.csv" and scrape player
 statistics and information from Elite Prospects.
 
@@ -32,9 +26,6 @@ from datetime import datetime
 from unidecode import unidecode
 import re 
 
-# Set directory
-os.chdir("/Users/brendankumagai/Sports-Analytics/2022-02_Plackett_Luce_Draft_Model")
-
 # Remove SettingWithCopyWarning when calling df.loc[index, colname]
 pd.options.mode.chained_assignment = None
 
@@ -42,7 +33,7 @@ pd.options.mode.chained_assignment = None
 driver = webdriver.Chrome(ChromeDriverManager().install())
 
 # Load previous data
-player_data = pd.read_csv("Data/players/player_data.csv")
+player_data = pd.read_csv("data/players/player_data.csv")
 
 
 
@@ -101,7 +92,7 @@ for i, row in player_data.iterrows():
 player_data["url"] = player_urls
 
 # Save updated urls
-player_data.to_csv("Data/players/player_data.csv", index = False)
+player_data.to_csv("data/players/player_data.csv", index = False)
 
 
 
@@ -121,16 +112,16 @@ player_data["ep_id"] = np.where(player_data["ep_id"].isnull(), player_data["url"
 player_data["player_id"] = np.where(player_data["player_id"].isnull(), player_data["draft_year"].astype(str) + "_" + player_data["ep_id"].astype(str), player_data["player_id"])
 
 # Save updated data
-player_data.to_csv("Data/players/player_data.csv", index = False)
+player_data.to_csv("data/players/player_data.csv", index = False)
 
 
 
 #%% SCRAPE PLAYER INFORMATION AND STATISTICS
 
 # Load in previous data
-info_df = pd.read_csv("Data/players/player_information.csv")
-sk_stats_df = pd.read_csv("Data/players/skater_statistics.csv")
-gl_stats_df = pd.read_csv("Data/players/goalie_statistics.csv")
+info_df = pd.read_csv("data/players/player_information.csv")
+sk_stats_df = pd.read_csv("data/players/skater_statistics.csv")
+gl_stats_df = pd.read_csv("data/players/goalie_statistics.csv")
 
 # Obtain list of urls already scraped
 urls_scraped = info_df["source"].tolist()
@@ -700,13 +691,13 @@ for url in urls:
 #%% SAVE PLAYER INFORMATION AND STATISTICS
 
 # Save backup copies
-old_info = pd.read_csv("Data/players/player_information.csv")
-old_sk_stats = pd.read_csv("Data/players/skater_statistics.csv")
-old_gl_stats = pd.read_csv("Data/players/goalie_statistics.csv")
+old_info = pd.read_csv("data/players/player_information.csv")
+old_sk_stats = pd.read_csv("data/players/skater_statistics.csv")
+old_gl_stats = pd.read_csv("data/players/goalie_statistics.csv")
 
-old_info.to_csv("Data/players/player_information_backup.csv", index = False)
-old_sk_stats.to_csv("Data/players/skater_statistics_backup.csv", index = False)
-old_gl_stats.to_csv("Data/players/goalie_statistics_backup.csv", index = False)
+old_info.to_csv("data/players/player_information_backup.csv", index = False)
+old_sk_stats.to_csv("data/players/skater_statistics_backup.csv", index = False)
+old_gl_stats.to_csv("data/players/goalie_statistics_backup.csv", index = False)
 
 
 # Remove accents
@@ -722,9 +713,9 @@ gl_stats_df["team"] = np.where(gl_stats_df["team"] == "nan", np.nan, gl_stats_df
 gl_stats_df["league"] = np.where(gl_stats_df["league"] == "nan", np.nan, gl_stats_df["league"])
 
 # Save updated data
-info_df.to_csv("Data/players/player_information.csv", index = False)
-sk_stats_df.to_csv("Data/players/skater_statistics.csv", index = False)
-gl_stats_df.to_csv("Data/players/goalie_statistics.csv", index = False)
+info_df.to_csv("data/players/player_information.csv", index = False)
+sk_stats_df.to_csv("data/players/skater_statistics.csv", index = False)
+gl_stats_df.to_csv("data/players/goalie_statistics.csv", index = False)
 
 
 

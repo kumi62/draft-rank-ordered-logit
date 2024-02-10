@@ -51,3 +51,10 @@ model_fit_22 = rstan::sampling(
 readr::write_rds(model_fit_22, "data/model_output/model_2022.Rda")
 
 
+
+## STEP 2: RUN DRAFT SIMULATIONS -----------------------------------------------
+
+
+
+
+
