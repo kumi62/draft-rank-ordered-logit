@@ -39,7 +39,7 @@ create_tendencies_beeswarm = function(beta_heights_means, beta_propsr_means, bet
     ggplot() +
     geom_hline(data = group_means, aes(yintercept = type_mean, colour = agency_type)) +
     geom_hline(aes(yintercept = 0), linetype = "longdash") +
-    geom_label(aes(x = agency_type, y = mean, label = agency_name, fill = agency_type), size = 3.5, position = position_quasirandom(), alpha = 0.3) +
+    geom_label(aes(x = agency_type, y = mean, label = agency_name, fill = agency_type), size = 3.5, position = position_quasirandom(), alpha = 0.6) +
     theme_bw() +
     theme(legend.position = "none") +
     theme(axis.text = element_text(size = 20), axis.title = element_text(size = 20), strip.text = element_text(size = 20)) +

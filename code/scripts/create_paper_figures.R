@@ -38,6 +38,7 @@ agency_data = readr::read_csv("data/model_input/model_agencies_data.csv")
 model_data = readr::read_rds("data/model_input/model_data_list.Rda")
 player_data = readr::read_csv("data/model_input/model_player_data.csv")
 draft_results = readr::read_csv("data/model_input/draft_results.csv")
+model_fit = readr::read_rds("data/model_output/model_full.Rda")
 
 
 
@@ -102,7 +103,7 @@ player_order_21 = draft_2021 %>%
 # Create player-pick pmf
 figure2a = create_static_heatmap(draft_2021, player_order_21)
 
-ggsave("figures/figure2a.png", figure2a, width = 12, height = 8.5)
+ggsave("figures/figure2a.png", figure2a, width = 10, height = 8)
 
 
 
@@ -137,7 +138,7 @@ player_order_22 = draft_2022 %>%
 # Create player-pick pmf
 figure2b = create_static_heatmap(draft_2022, player_order_22)
 
-ggsave("figures/figure2b.png", figure2b, width = 12, height = 8.5)
+ggsave("figures/figure2b.png", figure2b, width = 10, height = 8)
 
 
 
@@ -160,7 +161,7 @@ draft_2022_obs_top3 = draft_simulator(
 # Create player-pick pmf
 figure3a = create_static_heatmap(draft_2022_obs_top3, player_order_22)
 
-ggsave("figures/figure3a.png", figure3a, width = 12, height = 8.5)
+ggsave("figures/figure3a.png", figure3a, width = 10, height = 8)
 
 
 
@@ -183,11 +184,16 @@ draft_2022_prob_top3 = draft_simulator(
 # Create player-pick pmf
 figure3b = create_static_heatmap(draft_2022_prob_top3, player_order_22)
 
-ggsave("figures/figure3b.png", figure3b, width = 12, height = 8.5)
+ggsave("figures/figure3b.png", figure3b, width = 10, height = 8)
 
 
 
 ## FIGURE 4: TEAM AND AGENCY TENDENCY PARAMETER MEANS (BETA) -------------------
+
+# Extract posterior means
+posterior_means = summary(model_fit)$summary %>%
+  as.data.frame() %>%
+  rownames_to_column("variable")
 
 # Extract posterior means for height tendency parameter
 beta_heights_means = posterior_means %>%
@@ -248,7 +254,7 @@ player_order = draft_start %>%
 # Create player-pick pmf
 figure5 = create_static_heatmap(draft_start, player_order)
 
-ggsave("figures/figure5.png", figure5, width = 12, height = 8.5)
+ggsave("figures/figure5.png", figure5, width = 10, height = 8)
 
 
 
@@ -276,6 +282,6 @@ draft_first22 = draft_simulator(
 )
 
 # Create CDF for Wyatt Johnston at pick 15
-figure6 = create_player_cdf(draft_first22, "Wyatt Johnston", dpi = 400, height = 5, width = 10)
+figure6 = create_player_cdf(draft_first22, "Wyatt Johnston")
 
-
+ggsave("figures/figure6.png", figure6, dpi = 400, height = 5, width = 10)

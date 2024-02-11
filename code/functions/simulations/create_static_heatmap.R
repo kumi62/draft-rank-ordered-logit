@@ -44,7 +44,12 @@ create_static_heatmap = function(simulation_results, player_order) {
     scale_x_discrete(expand = c(0,0), drop = FALSE) +
     theme_bw() +
     labs(x = "Draft Pick", y = "", fill = "Probability") +
-    theme(axis.text.x = element_text(size = 7, angle = 90), axis.text.y = element_text(size = 7)) +
+    theme(
+      axis.text.x = element_text(size = 13, angle = 90),
+      axis.text.y = element_text(size = 13),
+      legend.text = element_text(size = 20),
+      legend.title = element_text(size = 20)
+    ) +
     coord_equal()
   
   if (any(draft_plot_df$prob == 1)) {

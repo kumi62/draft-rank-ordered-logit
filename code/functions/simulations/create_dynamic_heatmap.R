@@ -54,7 +54,12 @@ create_dynamic_heatmap = function(simulation_results, player_order) {
     scale_x_discrete(expand = c(0,0), drop = FALSE) +
     theme_bw() +
     labs(x = "Draft Pick", y = "", fill = "Probability") +
-    theme(axis.text.x = element_text(size = 7, angle = 90), axis.text.y = element_text(size = 7)) +
+    theme(
+      axis.text.x = element_text(size = 13, angle = 90),
+      axis.text.y = element_text(size = 13),
+      legend.text = element_text(size = 20),
+      legend.title = element_text(size = 20)
+    ) +
     coord_equal() +
     new_scale_fill() +
     geom_tile(data = . %>% filter(prob == 1), aes(x = team, y = player, fill = "x"), colour = "grey70") +
