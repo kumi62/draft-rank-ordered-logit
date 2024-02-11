@@ -65,8 +65,10 @@ restructure_ranking_data = function(ranking_data_full, player_data_model, output
     dplyr::mutate(
       # Determine number of players ranked
       n_ranked = purrr::map(ranking, ~nrow(.x)),
+      # Nest in player data (for use in creating list of unranked players)
+      player_data = purrr::map(1, ~player_data_model),
       # Determine unranked players
-      unranked_players = purrr::pmap(list(ranking, year, league_subset, region_subset, position_subset, nationality_subset), find_unranked),
+      unranked_players = purrr::pmap(list(ranking, player_data, year, league_subset, region_subset, position_subset, nationality_subset), find_unranked),
       # Convert agencies into single rows
       agencies = purrr::map2(ranking, unranked_players, prep_agencies),
       # Convert rankings into single rows

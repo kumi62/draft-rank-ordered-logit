@@ -1,5 +1,6 @@
 # Find all players who are unranked in a ranking set
 find_unranked = function(ranking,
+                         player_data_model,
                          year,
                          league_subset = NA,
                          region_subset = NA,

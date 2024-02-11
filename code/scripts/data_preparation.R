@@ -222,23 +222,41 @@ ranking_data_list_22 = convert_rankings_to_list(
 
 
 
-## STEP 5: STORE OUTPUTS -------------------------------------------------------
+## STEP 5: EXTRACT THE OBSERVED DRAFT RESULTS ----------------------------------
+
+draft_results = ranking_data_full %>%
+  filter(set_type == "results") %>%
+  select(year, rank, team, player, stan_id, player_id)
+
+draft_results_21 = ranking_data_full_21 %>%
+  filter(set_type == "results") %>%
+  select(year, rank, team, player, stan_id, player_id)
+
+draft_results_22 = ranking_data_full_22 %>%
+  filter(set_type == "results") %>%
+  select(year, rank, team, player, stan_id, player_id)
+
+
+## STEP 6: STORE OUTPUTS -------------------------------------------------------
 
 # Save player data and Stan data for modelling multiple drafts
 write_csv(player_data_model, "data/model_input/model_player_data.csv")
 write_rds(ranking_data_model$rankings, "data/model_input/model_rankings_data.Rda")
 write_csv(ranking_data_model$agencies, "data/model_input/model_agencies_data.csv")
 write_rds(ranking_data_list, "data/model_input/model_data_list.Rda")
+write_csv(draft_results, "data/model_input/draft_results.csv")
 
 # Save player data and Stan data for modelling 2021 draft
 write_csv(player_data_model_21, "data/model_input/model_player_data_2021.csv")
 write_rds(ranking_data_model_21$rankings, "data/model_input/model_rankings_data_2021.Rda")
 write_csv(ranking_data_model_21$agencies, "data/model_input/model_agencies_data_2021.csv")
 write_rds(ranking_data_list_21, "data/model_input/model_data_list_2021.Rda")
+write_csv(draft_results_21, "data/model_input/draft_results_2021.csv")
 
 # Save player data and Stan data for modelling 2022 draft
 write_csv(player_data_model_22, "data/model_input/model_player_data_2022.csv")
 write_rds(ranking_data_model_22$rankings, "data/model_input/model_rankings_data_2022.Rda")
 write_csv(ranking_data_model_22$agencies, "data/model_input/model_agencies_data_2022.csv")
 write_rds(ranking_data_list_22, "data/model_input/model_data_list_2022.Rda")
+write_csv(draft_results_22, "data/model_input/draft_results_2022.csv")
 

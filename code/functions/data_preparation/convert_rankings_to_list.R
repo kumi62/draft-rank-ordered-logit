@@ -17,67 +17,68 @@ convert_rankings_to_list = function(rankings, agencies, prior, player_data_model
   # Create matrix of player z-scored heights for each ranking set (row) and rank (col)
   height_z_matrix = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$height_z[player_data_model$stan_id == x])}) %>%
+    #dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, 1)})
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$height_z[player_data_model$stan_id == x])}) %>%
     dplyr::ungroup()
   
   # Create matrix of player proportion of games at Sr level for each ranking set (row) and rank (col)
   prop_sr_matrix = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$prop_sr[player_data_model$stan_id == x])}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$prop_sr[player_data_model$stan_id == x])}) %>%
     dplyr::ungroup()
   
   # Create boolean matrix for whether a player is overaged or not for each ranking set (row) and rank (col)
   is_overage_matrix = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$age_split[player_data_model$stan_id == x] == "Overage")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$age_split[player_data_model$stan_id == x] == "Overage")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
   # Create boolean matrix for whether a player is a late birthdate or not for each ranking set (row) and rank (col)
   is_late_bday_matrix = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$age_split[player_data_model$stan_id == x] == "Late")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$age_split[player_data_model$stan_id == x] == "Late")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
   # Create boolean matrix for whether a player is American or not for each ranking set (row) and rank (col)
   is_usa = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "USA")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "USA")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
   # Create boolean matrix for whether a player is Swedish or not for each ranking set (row) and rank (col)
   is_swe = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "SWE")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "SWE")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
   # Create boolean matrix for whether a player is Finnish or not for each ranking set (row) and rank (col)
   is_fin = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "FIN")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "FIN")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
   # Create boolean matrix for whether a player is Russian or not for each ranking set (row) and rank (col)
   is_rus = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "RUS")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "RUS")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
   # Create boolean matrix for whether a player is (non-RUS, FIN, or SWE) European or not for each ranking set (row) and rank (col)
   is_eur = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "EUR")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$nation_origin[player_data_model$stan_id == x] == "EUR")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
   is_european = rankings_matrix %>%
     dplyr::rowwise() %>%
-    dplyr::mutate_all(function(x) {ifelse(x == 0, 0, player_data_model$continent[player_data_model$stan_id == x] == "Europe")}) %>%
+    dplyr::mutate_all(function(x) {ifelse(x == 0 | is.na(x), 0, player_data_model$continent[player_data_model$stan_id == x] == "Europe")}) %>%
     dplyr::ungroup() %>%
     dplyr::mutate_all(as.numeric)
   
