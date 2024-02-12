@@ -1,0 +1,586 @@
+stan_id,player_id,player,last_name,first_name,draft_year,pos_broad,pos_spec,primary_league,primary_region,continent,nation_origin,nation_compete,prop_sr,height_z,age_split
+1,2022_158059,Adam Bares,Bares,Adam,2022,F,W,U18 SM-sarja,Finland,Europe,EUR,FIN,0,-1.1759058622075196,Early
+2,2022_201731,Joseph Tucker Tynan,Tucker,Joseph,2022,G,G,OHL,Ontario,North America,USA,CAN,0,-0.9454833262783471,Overage
+3,2022_201764,Mark Estapa,Estapa,Mark,2022,F,F,NCAA,USA,North America,USA,USA,0.5,0.9073293166695101,Overage
+4,2022_201803,Benjamin King,King,Benjamin,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,1.4281381113887675,Overage
+5,2022_201910,Miguel Tourigny,Tourigny,Miguel,2022,D,RHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-2.200164277264984,Overage
+6,2022_201933,Marco Costantini,Costantini,Marco,2022,G,G,OHL,Ontario,North America,CAN,CAN,0,-0.5455810130488347,Overage
+7,2022_201937,Logan Morrison,Morrison,Logan,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.039314658804081075,Overage
+8,2022_201938,Cole O'Hara,O'Hara,Cole,2022,F,W,USHL,USA,North America,CAN,USA,0,0.039314658804081075,Overage
+9,2022_290051,Victor Mancini,Mancini,Victor,2022,D,RHD,NCAA,USA,North America,USA,USA,0.5,1.1821900145571633,Overage
+10,2022_291301,Theo Rochette,Rochette,Theo,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.828699999061348,Overage
+11,2022_340644,Nathan Gaucher,Gaucher,Nathan,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,1.4281381113887675,Late
+12,2022_342194,Evan Boucher,Boucher,Evan,2022,F,F,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.9073293166695101,Overage
+13,2022_382514,Alexander Blank,Blank,Alexander,2022,F,C,DEL,Germany,Europe,EUR,EUR,1,0.039314658804081075,Overage
+14,2022_385712,Liam Steele,Steele,Liam,2022,D,RHD,CAHS,Canada,North America,EUR,CAN,0,1.9338243016287515,Early
+15,2022_388222,Nick Malik,Malik,Nick,2022,G,G,Liiga,Finland,Europe,EUR,FIN,1,0.25422361341019023,Overage
+16,2022_393666,Maksymilian Szuber,Szuber,Maksymilian,2022,D,LHD,DEL,Germany,Europe,EUR,EUR,1,1.1821900145571633,Overage
+17,2022_394734,Marcus Limpar-Lantz,Limpar-Lantz,Marcus,2022,F,C,J20 Nationell,Sweden,Europe,SWE,SWE,0.04,0.039314658804081075,Overage
+18,2022_394756,Luigi Calce,Calce,Luigi,2022,F,F,DNL U20,Germany,Europe,EUR,EUR,0,-0.6550970674882621,Late
+19,2022_399861,Nils Juntorp,Juntorp,Nils,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.09259259259259259,0.5601234535233385,Late
+20,2022_402949,Dennis Hildeby,Hildeby,Dennis,2022,G,G,J20 Nationell,Sweden,Europe,SWE,SWE,0.3684210526315789,1.85383286632824,Overage
+21,2022_406803,Vinzenz Rohrer,Rohrer,Vinzenz,2022,F,F,OHL,Ontario,North America,EUR,CAN,0,-0.828699999061348,Early
+22,2022_410551,Patrick Guay,Guay,Patrick,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-1.3495087937806054,Overage
+23,2022_412624,Marek Hejduk,Hejduk,Marek,2022,F,F,USDP,USA,North America,USA,USA,0,0.039314658804081075,Early
+24,2022_413108,Daylan Kuefler,Kuefler,Daylan,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,0.9073293166695101,Overage
+25,2022_413825,Kyle Jackson,Jackson,Kyle,2022,F,F,OHL,Ontario,North America,CAN,CAN,0,0.9073293166695101,Overage
+26,2022_413836,Gavin White,White,Gavin,2022,D,RHD,OHL,Ontario,North America,CAN,CAN,0,-0.8848042748897044,Overage
+27,2022_414961,Brad Lambert,Lambert,Brad,2022,F,F,Liiga,Finland,Europe,FIN,FIN,0.9811320754716981,0.039314658804081075,Late
+28,2022_416983,Ryan Hofer,Hofer,Ryan,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,1.4281381113887675,Overage
+29,2022_417191,Kaleb Lawrence,Lawrence,Kaleb,2022,F,F,OHL,Ontario,North America,CAN,CAN,0,2.99056449554654,Overage
+30,2022_417301,Luke Pavicich,Pavicich,Luke,2022,G,G,NCAA,USA,North America,USA,USA,0.5,0.45417477002494644,Overage
+31,2022_418255,Avery Hayes,Hayes,Avery,2022,F,F,OHL,Ontario,North America,USA,CAN,0,-0.828699999061348,Overage
+32,2022_418282,Dominic James,James,Dominic,2022,F,F,NCAA,USA,North America,USA,USA,0.5,-1.3495087937806054,Overage
+33,2022_418530,Lucas Edmonds,Edmonds,Lucas,2022,F,W,OHL,Ontario,North America,SWE,CAN,0,-0.30789120434209055,Overage
+34,2022_420272,Simon Forsmark,Forsmark,Simon,2022,D,LHD,SHL,Sweden,Europe,SWE,SWE,0.6164383561643836,0.6184642992534721,Late
+35,2022_420460,Theodor Johnsson,Johnsson,Theodor,2022,D,RHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.3333333333333333,0.242647155717678,Overage
+36,2022_422034,Mans Forsfjall,Forsfjall,Mans,2022,D,LHD,SHL,Sweden,Europe,SWE,SWE,0.8360655737704918,-0.5089871313539103,Overage
+37,2022_423552,Filip Maniscalchi,Maniscalchi,Filip,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0,0.8063728710213691,Late
+38,2022_423614,Ludwig Persson,Persson,Ludwig,2022,F,F,J20 Nationell,Sweden,Europe,SWE,SWE,0.18518518518518517,0.21291759037716687,Late
+39,2022_424865,Elias Sjostrom,Sjostrom,Elias,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0,0.242647155717678,Overage
+40,2022_425317,Milton Oscarson,Oscarson,Milton,2022,F,F,J20 Nationell,Sweden,Europe,SWE,SWE,0.49122807017543857,2.4697557008272826,Overage
+41,2022_425653,Jacob Mathieu,Mathieu,Jacob,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.48149413591517637,Early
+42,2022_426117,Gabriel Szturc,Szturc,Gabriel,2022,F,C,WHL,Western Canada,North America,EUR,CAN,0,-0.6550970674882621,Late
+43,2022_448938,Fabian Wagner,Wagner,Fabian,2022,F,F,J20 Nationell,Sweden,Europe,SWE,SWE,0.13114754098360656,0.039314658804081075,Early
+44,2022_454747,Christoffer Sedoff,Sedoff,Christoffer,2022,D,LHD,WHL,Western Canada,North America,FIN,CAN,0,0.242647155717678,Overage
+45,2022_461966,Peter Reynolds,Reynolds,Peter,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.828699999061348,Overage
+46,2022_461967,Jeremy Wilmer,Wilmer,Jeremy,2022,F,C,USHL,USA,North America,USA,USA,0,-2.2175234516460343,Overage
+47,2022_462499,Stephen Halliday,Halliday,Stephen,2022,F,C,USHL,USA,North America,CAN,USA,0,1.775343974534939,Overage
+48,2022_464776,Davis Burnside,Burnside,Davis,2022,F,F,USHL,USA,North America,USA,USA,0,0.039314658804081075,Late
+49,2022_464780,Jack Devine,Devine,Jack,2022,F,W,NCAA,USA,North America,USA,USA,0.5,-0.48149413591517637,Late
+50,2022_464781,Tyler Haskins,Haskins,Tyler,2022,F,F,USHL,USA,North America,USA,USA,0,0.3865205219502527,Overage
+51,2022_470026,Zakary Karpa,Karpa,Zakary,2022,F,C,NCAA,USA,North America,USA,USA,0.5,0.9073293166695101,Overage
+52,2022_471614,Linus Sjodin,Sjodin,Linus,2022,F,F,SHL,Sweden,Europe,SWE,SWE,0.8857142857142857,-0.13428827276900474,Overage
+53,2022_472326,Jiri Tichacek,Tichacek,Jiri,2022,D,LHD,Czechia,Czechia,Europe,EUR,EUR,0.953125,-1.8243471337291897,Overage
+54,2022_472350,Maros Jedlicka,Jedlicka,Maros,2022,F,W,Slovakia,Slovakia,Europe,EUR,EUR,1,0.5601234535233385,Overage
+55,2022_473495,Sebastian Tornqvist,Tornqvist,Sebastian,2022,D,RHD,J20 Nationell,Sweden,Europe,SWE,SWE,0,-0.6968957031218073,Overage
+56,2022_473652,Connor Trenholm,Trenholm,Connor,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.3865205219502527,Overage
+57,2022_474743,Kasper Larsen,Larsen,Kasper,2022,D,LHD,OHL,Ontario,North America,EUR,CAN,0,2.3096414451645457,Overage
+58,2022_474745,Marcus Almquist,Almquist,Marcus,2022,F,F,WHL,Western Canada,Europe,EUR,CAN,0,-2.2175234516460343,Overage
+59,2022_475246,Mitchell Martin,Martin,Mitchell,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,1.775343974534939,Overage
+60,2022_475290,Ben Zloty,Zloty,Ben,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.32107855958601317,Overage
+61,2022_475351,Charlie Wright,Wright,Charlie,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,0.054738583949780935,Late
+62,2022_475381,Tristan Zandee,Zandee,Tristan,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,1.4281381113887675,Late
+63,2022_475625,Jared Davidson,Davidson,Jared,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,-0.48149413591517637,Overage
+64,2022_476028,Matthew Savoie,Savoie,Matthew,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,-1.3495087937806054,Late
+65,2022_476039,Tyler Dunbar,Dunbar,Tyler,2022,D,LHD,USHL,USA,North America,USA,USA,0,0.054738583949780935,Late
+66,2022_476211,Riku Tohila,Tohila,Riku,2022,F,C,U20 SM-sarja,Finland,Europe,FIN,FIN,0,3.511373290265797,Late
+67,2022_477344,Mikey Milne,Milne,Mikey,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,-0.48149413591517637,Overage
+68,2022_477345,Graham Sward,Sward,Graham,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,0.6184642992534721,Overage
+69,2022_478377,Vinny Borgesi,Borgesi,Vinny,2022,D,RHD,USHL,USA,North America,USA,USA,0,-2.200164277264984,Early
+70,2022_478379,Kenny Connors,Connors,Kenny,2022,F,C,USHL,USA,North America,USA,USA,0,0.3865205219502527,Overage
+71,2022_479738,Hugo Frylen,Frylen,Hugo,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.047619047619047616,1.0809322482425958,Late
+72,2022_479783,Cameron Whitehead,Whitehead,Cameron,2022,G,G,USHL,USA,North America,CAN,USA,0,0.45417477002494644,Overage
+73,2022_479798,Stuart Rolofs,Rolofs,Stuart,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,0.9073293166695101,Overage
+74,2022_479813,Patrick Leaver,Leaver,Patrick,2022,G,G,OHL,Ontario,North America,CAN,CAN,0,-0.5455810130488347,Overage
+75,2022_479856,Samuel Mayer,Mayer,Samuel,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,0.9942814427892662,Overage
+76,2022_480052,Georg Weigelt,Weigelt,Georg,2022,F,C,SHL,Sweden,Europe,SWE,SWE,0.5714285714285714,0.3865205219502527,Overage
+77,2022_480110,James Stefan,Stefan,James,2022,F,W,WHL,Western Canada,North America,USA,CAN,0,0.039314658804081075,Overage
+78,2022_481354,Reese Laubach,Laubach,Reese,2022,F,C,18U AAA,USA,North America,USA,USA,0,0.039314658804081075,Late
+79,2022_481993,Kevin Anderson,Anderson,Kevin,2022,F,F,SJHL,Western Canada,North America,CAN,CAN,0,-0.13428827276900474,Overage
+80,2022_481995,Davis Fry,Fry,Davis,2022,F,F,MJHL,Western Canada,North America,CAN,CAN,0,1.4281381113887675,Overage
+81,2022_482419,Connor McGrath,McGrath,Connor,2022,F,C,SJHL,Western Canada,North America,CAN,CAN,0,-0.48149413591517637,Overage
+82,2022_483001,Julien Beland,Beland,Julien,2022,F,F,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,1.4281381113887675,Overage
+83,2022_483377,Adam Ingram,Ingram,Adam,2022,F,C,USHL,USA,North America,CAN,USA,0,0.9073293166695101,Late
+84,2022_483415,Eric Alarie,Alarie,Eric,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,0.3865205219502527,Overage
+85,2022_483418,Hudson Thornton,Thornton,Hudson,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.8848042748897044,Late
+86,2022_483427,Tyler Brennan,Brennan,Tyler,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,1.0540282398692151,Late
+87,2022_485084,Adam Cardona,Cardona,Adam,2022,D,RHD,USHL,USA,North America,CAN,USA,0,0.6184642992534721,Late
+88,2022_485146,Alex Sotek,Sotek,Alex,2022,F,W,Slovakia,Slovakia,Europe,EUR,EUR,0.7976190476190477,-0.13428827276900474,Early
+89,2022_485293,Alexis Gendron,Gendron,Alexis,2022,F,F,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.828699999061348,Late
+90,2022_485361,Gabriel Klassen,Klassen,Gabriel,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-0.828699999061348,Overage
+91,2022_485564,Theo Keilin,Keilin,Theo,2022,F,F,J20 Nationell,Sweden,Europe,SWE,SWE,0.022222222222222223,-0.48149413591517637,Late
+92,2022_485737,Jeremy Langlois,Langlois,Jeremy,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.054738583949780935,Late
+93,2022_485872,Brett Brochu,Brochu,Brett,2022,G,G,OHL,Ontario,North America,CAN,CAN,0,-0.9454833262783471,Overage
+94,2022_486534,Boston Buckberger,Buckberger,Boston,2022,D,LHD,AJHL,Western Canada,North America,CAN,CAN,0,-0.8848042748897044,Overage
+95,2022_486911,Stefan Milosevic,Milosevic,Stefan,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.25396825396825395,0.9942814427892662,Late
+96,2022_488006,Zach Bookman,Bookman,Zach,2022,D,RHD,AJHL,Western Canada,North America,USA,CAN,0,-1.2606214184254985,Overage
+97,2022_489819,Brady James,James,Brady,2022,G,G,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.5455810130488347,Overage
+98,2022_491564,Tristan Luneau,Luneau,Tristan,2022,D,RHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.054738583949780935,Early
+99,2022_491616,Adam Engstrom,Engstrom,Adam,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.019230769230769232,0.430555727485575,Late
+100,2022_491928,Zach Biggar,Biggar,Zach,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.32107855958601317,Overage
+101,2022_492134,Eli Barnett,Barnett,Eli,2022,D,RHD,BCHL,Western Canada,North America,CAN,CAN,0,2.3096414451645457,Late
+102,2022_492228,Ryan Greene,Greene,Ryan,2022,F,C,USHL,USA,North America,CAN,USA,0,0.3865205219502527,Late
+103,2022_494606,Luca Di Pasquo,Di Pasquo,Luca,2022,G,G,"NAHL",USA,North America,USA,USA,0,-0.5455810130488347,Late
+104,2022_499914,Vincent Filion,Filion,Vincent,2022,G,G,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.9454833262783471,Early
+105,2022_502761,Frederic Brunet,Brunet,Frederic,2022,F,F,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.9073293166695101,Overage
+106,2022_502844,James Hardie,Hardie,James,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,0.039314658804081075,Overage
+107,2022_504264,David Gucciardi,Gucciardi,David,2022,D,LHD,NCAA,USA,North America,CAN,USA,0.5,0.054738583949780935,Overage
+108,2022_505196,Joseph Serpa,Serpa,Joseph,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Overage
+109,2022_505291,Joshua Niedermayer,Niedermayer,Joshua,2022,D,LHD,BCHL,Western Canada,North America,USA,CAN,0,-0.32107855958601317,Early
+110,2022_505365,Matthew Maggio,Maggio,Matthew,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Overage
+111,2022_505395,Deni Goure,Goure,Deni,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Overage
+112,2022_505754,Kai Uchacz,Uchacz,Kai,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,0.3865205219502527,Overage
+113,2022_506280,Kent Anderson,Anderson,Kent,2022,D,RHD,USHL,USA,North America,CAN,USA,0,1.1821900145571633,Late
+114,2022_506333,Dylan James,James,Dylan,2022,F,W,USHL,USA,North America,CAN,USA,0,0.039314658804081075,Late
+115,2022_506692,Emmett Croteau,Croteau,Emmett,2022,G,G,USHL,USA,North America,CAN,USA,0,0.8540770832544589,Late
+116,2022_506838,Reid Schaefer,Schaefer,Reid,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,1.4281381113887675,Late
+117,2022_508274,Hunter McDonald,McDonald,Hunter,2022,D,LHD,USHL,USA,North America,USA,USA,0,1.1821900145571633,Overage
+118,2022_509851,Oskar Asplund,Asplund,Oskar,2022,D,LHD,HockeyAllsvenskan,Sweden,Europe,SWE,SWE,0.7101449275362319,-0.8848042748897044,Late
+119,2022_511853,Jordan Gustafson,Gustafson,Jordan,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,-0.48149413591517637,Early
+120,2022_511952,Gibson Homer,Homer,Gibson,2022,G,G,USHL,USA,North America,USA,USA,0,1.4539305530987277,Late
+121,2022_512107,Cruz Lucius,Lucius,Cruz,2022,F,W,USDP,USA,North America,USA,USA,0,0.039314658804081075,Early
+122,2022_512110,Connor Kurth,Kurth,Connor,2022,F,F,USHL,USA,North America,USA,USA,0,-0.48149413591517637,Overage
+123,2022_512111,Jack Harvey,Harvey,Jack,2022,F,F,USHL,USA,North America,USA,USA,0,-0.828699999061348,Overage
+124,2022_512112,Jake Martin,Martin,Jake,2022,D,RHD,NCAA,USA,North America,USA,USA,0.5,-0.32107855958601317,Overage
+125,2022_512166,Noah Laba,Laba,Noah,2022,F,C,USHL,USA,North America,USA,USA,0,0.9073293166695101,Overage
+126,2022_512172,Tyler Duke,Duke,Tyler,2022,D,LHD,USDP,USA,North America,USA,USA,0,-1.8243471337291897,Early
+127,2022_512177,Kaidan Mbereko,Mbereko,Kaidan,2022,G,G,USHL,USA,North America,USA,USA,0,-1.5453367961226159,Overage
+128,2022_512188,Parker Murray,Murray,Parker,2022,F,F,BCHL,Western Canada,North America,USA,CAN,0,1.775343974534939,Late
+129,2022_512285,Braden Holt,Holt,Braden,2022,G,G,WHL,Western Canada,North America,USA,CAN,0,-0.5455810130488347,Overage
+130,2022_514090,Oskar Tangerby,Tangerby,Oskar,2022,D,RHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.04477611940298507,0.430555727485575,Early
+131,2022_515318,William Proos,Proos,William,2022,F,W,HockeyAllsvenskan,Sweden,Europe,SWE,SWE,0.5070422535211268,1.2545351798156816,Late
+132,2022_516605,Kevin Korchinski,Korchinski,Kevin,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,0.054738583949780935,Early
+133,2022_517394,Ian Blomquist,Blomquist,Ian,2022,G,G,J20 Nationell,Sweden,Europe,SWE,SWE,0.09375,0.25422361341019023,Overage
+134,2022_518206,Justin Lies,Lies,Justin,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,0.3865205219502527,Late
+135,2022_519028,Zakary Lavoie,Lavoie,Zakary,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+136,2022_520239,Noah Meier,Meier,Noah,2022,D,LHD,SL,Switzerland,Europe,EUR,EUR,0.9836065573770492,-0.8848042748897044,Overage
+137,2022_522361,Karel Krepelka,Krepelka,Karel,2022,D,RHD,Czechia U20,Czechia,Europe,EUR,EUR,0,0.054738583949780935,Late
+138,2022_522391,Petr Gajda,Gajda,Petr,2022,F,W,Czechia U20,Czechia,Europe,EUR,EUR,0.04918032786885246,1.4281381113887675,Late
+139,2022_522430,Yegor Suchkov,Suchkov,Yegor,2022,F,F,VHL,Russia,Europe,RUS,RUS,0.9655172413793104,-1.8703175884998628,Overage
+140,2022_522442,Tomas Suchanek,Suchanek,Tomas,2022,G,G,WHL,Western Canada,North America,EUR,CAN,0,0.05427245679543399,Overage
+141,2022_522488,Jan Spunar,Spunar,Jan,2022,G,G,Czechia U20,Czechia,Europe,EUR,EUR,0,0.6541259266397027,Early
+142,2022_522503,Matej Pinkas,Pinkas,Matej,2022,D,LHD,Czechia2,Czechia,Europe,EUR,EUR,0.6612903225806451,0.8063728710213691,Late
+143,2022_522532,David Moravec,Moravec,David,2022,D,LHD,Czechia,Czechia,Europe,EUR,EUR,0.8301886792452831,-0.5089871313539103,Late
+144,2022_523476,Rylen Roersma,Roersma,Rylen,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,-0.48149413591517637,Early
+145,2022_525639,Nolan Dann,Dann,Nolan,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Overage
+146,2022_525641,Ben West,West,Ben,2022,G,G,CCHL,Ontario,North America,CAN,CAN,0,1.0540282398692151,Overage
+147,2022_525662,Jimi Suomi,Suomi,Jimi,2022,D,LHD,Liiga,Finland,Europe,FIN,FIN,0.6326530612244898,-1.0727128466576015,Overage
+148,2022_525669,Luca Del Bel Belluz,Del Bel Belluz,Luca,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.039314658804081075,Late
+149,2022_526041,Jere Lassila,Lassila,Jere,2022,F,C,U20 SM-sarja,Finland,Europe,FIN,FIN,0.045454545454545456,-0.828699999061348,Early
+150,2022_526042,Aaron Hakala,Hakala,Aaron,2022,F,F,U20 SM-sarja,Finland,Europe,FIN,FIN,0,-0.48149413591517637,Early
+151,2022_526043,Joakim Kemell,Kemell,Joakim,2022,F,W,Liiga,Finland,Europe,FIN,FIN,1,-0.30789120434209055,Early
+152,2022_526049,Oskari Vuorio,Vuorio,Oskari,2022,F,C,U20 SM-sarja,Finland,Europe,FIN,FIN,0,-1.3495087937806054,Early
+153,2022_526053,Michael Buchinger,Buchinger,Michael,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,-0.32107855958601317,Early
+154,2022_526057,Nicholas DeAngelis,DeAngelis,Nicholas,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,-0.8848042748897044,Early
+155,2022_526062,Pano Fimis,Fimis,Pano,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+156,2022_526063,Devin Kaplan,Kaplan,Devin,2022,F,W,USDP,USA,North America,USA,USA,0,1.4281381113887675,Early
+157,2022_526081,Grayson Badger,Badger,Grayson,2022,F,W,USHS-Prep,USA,North America,USA,USA,0,0.039314658804081075,Early
+158,2022_526087,Spencer Sova,Sova,Spencer,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,0.054738583949780935,Early
+159,2022_526089,Aiden Dubinsky,Dubinsky,Aiden,2022,D,RHD,USHL,USA,North America,USA,USA,0,-0.13316998781811612,Early
+160,2022_526091,Isaiah George,George,Isaiah,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,0.054738583949780935,Early
+161,2022_526094,Cutter Gauthier,Gauthier,Cutter,2022,F,F,USDP,USA,North America,USA,USA,0,1.0809322482425958,Early
+162,2022_526095,Rutger McGroarty,McGroarty,Rutger,2022,F,F,USDP,USA,North America,USA,USA,0,0.3865205219502527,Early
+163,2022_526098,Brody Crane,Crane,Brody,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+164,2022_526226,Charlie Leddy,Leddy,Charlie,2022,D,RHD,USDP,USA,North America,USA,USA,0,0.054738583949780935,Early
+165,2022_526227,Lane Hutson,Hutson,Lane,2022,D,LHD,USDP,USA,North America,USA,USA,0,-2.200164277264984,Early
+166,2022_526229,Seamus Casey,Casey,Seamus,2022,D,RHD,USDP,USA,North America,USA,USA,0,-1.2606214184254985,Early
+167,2022_526237,Andon Cerbone,Cerbone,Andon,2022,F,F,USHL,USA,North America,USA,USA,0,-1.3495087937806054,Early
+168,2022_526238,Aidan Castle,Castle,Aidan,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+169,2022_526239,Shane Wright,Wright,Shane,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.039314658804081075,Early
+170,2022_526255,Ivan Miroshnichenko,Miroshnichenko,Ivan,2022,F,W,VHL,Russia,Europe,RUS,RUS,0.96875,0.3865205219502527,Early
+171,2022_526483,Evan Konyen,Konyen,Evan,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Early
+172,2022_526485,Nathan Lewis,Lewis,Nathan,2022,F,W,USHL,USA,North America,USA,USA,0,2.122549837681111,Early
+173,2022_527415,Luca Krakovsky,Krakovsky,Luca,2022,D,LHD,Slovakia2,Slovakia,Europe,EUR,EUR,0.7222222222222222,-0.5089871313539103,Early
+174,2022_527420,Viliam Kmec,Kmec,Viliam,2022,D,RHD,WHL,Western Canada,North America,EUR,CAN,0,1.1821900145571633,Early
+175,2022_527422,Adam Zlnka,Zlnka,Adam,2022,F,W,USHL,USA,North America,EUR,USA,0,-0.13428827276900474,Early
+176,2022_527423,Juraj Slafkovsky,Slafkovsky,Juraj,2022,F,W,Liiga,Finland,Europe,EUR,FIN,0.8166666666666667,1.775343974534939,Early
+177,2022_527426,Adam Sykora,Sykora,Adam,2022,F,F,Slovakia,Slovakia,Europe,EUR,EUR,0.9855072463768116,-0.48149413591517637,Early
+178,2022_527429,Servac Petrovsky,Petrovsky,Servac,2022,F,C,OHL,Ontario,North America,EUR,CAN,0,-1.3495087937806054,Early
+179,2022_527430,Filip Mesar,Mesar,Filip,2022,F,W,Slovakia,Slovakia,Europe,EUR,EUR,1,-1.0023029306344338,Early
+180,2022_527438,Ales Cech,Cech,Ales,2022,D,LHD,U20 SM-sarja,Finland,Europe,EUR,FIN,0,0.8063728710213691,Early
+181,2022_527443,Matyas Melovsky,Melovsky,Matyas,2022,F,C,Czechia U20,Czechia,Europe,EUR,EUR,0.037037037037037035,0.3865205219502527,Early
+182,2022_527452,Arseni Koromyslov,Koromyslov,Arseni,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0.11940298507462686,1.1821900145571633,Late
+183,2022_527453,Pavel Mintyukov,Mintyukov,Pavel,2022,D,LHD,OHL,Ontario,North America,RUS,CAN,0,0.054738583949780935,Late
+184,2022_527468,Matvei Nadvorny,Nadvorny,Matvei,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,-0.828699999061348,Overage
+185,2022_527470,Ivan Zhigalov,Zhigalov,Ivan,2022,G,G,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,0.45417477002494644,Overage
+186,2022_527492,Alex Geci,Geci,Alex,2022,F,C,Slovakia2,Slovakia,Europe,EUR,EUR,0.3584905660377358,1.2545351798156816,Overage
+187,2022_527493,Petr Hauser,Hauser,Petr,2022,F,W,Czechia U20,Czechia,Europe,EUR,EUR,0.2463768115942029,1.775343974534939,Late
+188,2022_527728,Vsevolod Gaidamak,Gaidamak,Vsevolod,2022,F,F,OHL,Ontario,North America,RUS,CAN,0,-0.30789120434209055,Overage
+189,2022_529236,Liam Arnsby,Arnsby,Liam,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Late
+190,2022_529397,William Rousseau,Rousseau,William,2022,G,G,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.5455810130488347,Overage
+191,2022_529767,Hunter Strand,Strand,Hunter,2022,F,C,NCAA,USA,North America,USA,USA,0.5,-0.48149413591517637,Overage
+192,2022_529804,Josh Mori,Mori,Josh,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.8848042748897044,Early
+193,2022_529809,Fraser Minten,Minten,Fraser,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,0.3865205219502527,Early
+194,2022_529828,Noah Greuter,Greuter,Noah,2022,F,W,U20-Elit,Switzerland,Europe,EUR,EUR,0.2692307692307692,0.5601234535233385,Early
+195,2022_529920,Samuel Harris,Harris,Samuel,2022,F,W,USHL,USA,North America,USA,USA,0,-0.48149413591517637,Late
+196,2022_530663,Simon Latkoczy,Latkoczy,Simon,2022,G,G,USHL,USA,North America,EUR,USA,0,-0.9454833262783471,Overage
+197,2022_530689,Vasili Atanasov,Atanasov,Vasili,2022,F,C,MHL,Russia,Europe,RUS,RUS,0.20588235294117646,-0.828699999061348,Overage
+198,2022_530728,Joel Maatta,Maatta,Joel,2022,F,C,NCAA,USA,North America,FIN,USA,0.5,0.3865205219502527,Overage
+199,2022_532627,Zakhar Polshakov,Polshakov,Zakhar,2022,F,C,WHL,Western Canada,North America,EUR,CAN,0,-0.48149413591517637,Late
+200,2022_532642,Bogdans Hodass,Hodass,Bogdans,2022,D,LHD,WHL,Western Canada,North America,EUR,CAN,0,0.9942814427892662,Overage
+201,2022_532700,Nolan Flamand,Flamand,Nolan,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-1.3495087937806054,Early
+202,2022_532702,Bowden Singleton,Singleton,Bowden,2022,F,F,AJHL,Western Canada,North America,CAN,CAN,0,-1.5231117253536912,Early
+203,2022_532703,Josh Davies,Davies,Josh,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-1.3495087937806054,Early
+204,2022_534171,Rami Maatta,Maatta,Rami,2022,D,LHD,Liiga,Finland,Europe,FIN,FIN,0.9122807017543859,-0.8848042748897044,Overage
+205,2022_535688,Jakob Noren,Noren,Jakob,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.2153846153846154,-1.6364385619612927,Early
+206,2022_535690,Maximilian Kilpinen,Kilpinen,Maximilian,2022,F,F,J20 Nationell,Sweden,Europe,SWE,SWE,0,0.039314658804081075,Early
+207,2022_535695,Tim Almgren,Almgren,Tim,2022,F,C,J20 Nationell,Sweden,Europe,SWE,SWE,0,-0.828699999061348,Early
+208,2022_535698,Liam Ohgren,Ohgren,Liam,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.38461538461538464,0.3865205219502527,Early
+209,2022_535699,Noah Ostlund,Ostlund,Noah,2022,F,C,J20 Nationell,Sweden,Europe,SWE,SWE,0.20754716981132076,-0.30789120434209055,Early
+210,2022_535701,Alexander Suzdalev,Suzdalev,Alexander,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.078125,0.7337263850964243,Early
+211,2022_535718,Rieger Lorenz,Lorenz,Rieger,2022,F,F,AJHL,Western Canada,North America,CAN,CAN,0,0.3865205219502527,Early
+212,2022_535814,Cedrick Guindon,Guindon,Cedrick,2022,F,F,OHL,Ontario,North America,CAN,CAN,0,-0.6550970674882621,Early
+213,2022_535827,Charlie Schenkel,Schenkel,Charlie,2022,G,G,CCHL,Ontario,North America,CAN,CAN,0,1.4539305530987277,Early
+214,2022_535838,Elmeri Laakso,Laakso,Elmeri,2022,D,LHD,U20 SM-sarja,Finland,Europe,FIN,FIN,0.44,0.054738583949780935,Early
+215,2022_535839,Lauri Raiman,Raiman,Lauri,2022,F,F,U20 SM-sarja,Finland,Europe,FIN,FIN,0,-0.30789120434209055,Early
+216,2022_535841,Santeri Sulku,Sulku,Santeri,2022,F,F,U20 SM-sarja,Finland,Europe,FIN,FIN,0,1.6017410429618533,Early
+217,2022_535844,Niklas Kokko,Kokko,Niklas,2022,G,G,U20 SM-sarja,Finland,Europe,FIN,FIN,0.027777777777777776,0.45417477002494644,Early
+218,2022_535849,Simon Slavicek,Slavicek,Simon,2022,F,W,OHL,Ontario,North America,EUR,CAN,0.03076923076923077,-0.13428827276900474,Early
+219,2022_535869,Luke Devlin,Devlin,Luke,2022,F,C,CAHS,Canada,North America,USA,CAN,0,1.4281381113887675,Early
+220,2022_535870,Kocha Delic,Delic,Kocha,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Early
+221,2022_535872,Nicholas Moldenhauer,Moldenhauer,Nicholas,2022,F,F,USHL,USA,North America,CAN,USA,0,-0.48149413591517637,Early
+222,2022_535873,Jacob Oster,Oster,Jacob,2022,G,G,OHL,Ontario,North America,CAN,CAN,0,0.6541259266397027,Early
+223,2022_536536,Aidan Thompson,Thompson,Aidan,2022,F,C,USHL,USA,North America,USA,USA,0,-0.48149413591517637,Overage
+224,2022_537884,Marek Alscher,Alscher,Marek,2022,D,LHD,WHL,Western Canada,North America,EUR,CAN,0,0.9942814427892662,Early
+225,2022_538011,Vladislav Sapunov,Sapunov,Vladislav,2022,D,RHD,MHL,Russia,Europe,RUS,RUS,0,-0.32107855958601317,Early
+226,2022_538014,Aleksandr Legkov,Legkov,Aleksandr,2022,F,C,MHL,Russia,Europe,RUS,RUS,0,0.7337263850964243,Early
+227,2022_538020,Timofei Katkov,Katkov,Timofei,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,0.9073293166695101,Early
+228,2022_538042,Alexander Perevalov,Perevalov,Alexander,2022,F,W,MHL,Russia,Europe,RUS,RUS,0.08620689655172414,0.039314658804081075,Early
+229,2022_538928,Matthew Seminoff,Seminoff,Matthew,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,-0.828699999061348,Late
+230,2022_539062,Parker Bell,Bell,Parker,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,1.775343974534939,Late
+231,2022_539074,Thomas Milic,Milic,Thomas,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,-0.9454833262783471,Overage
+232,2022_539227,Vladimir Sychyov,Sychyov,Vladimir,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,-0.48149413591517637,Overage
+233,2022_539636,Damian Palmeri,Palmeri,Damian,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,0.054738583949780935,Early
+234,2022_539638,John Babcock,Babcock,John,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.32107855958601317,Early
+235,2022_539789,Dario Allenspach,Allenspach,Dario,2022,F,F,NL,Switzerland,Europe,EUR,EUR,1,0.039314658804081075,Overage
+236,2022_540116,Louis Robin,Robin,Louis,2022,F,W,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,-1.696714656926777,Overage
+237,2022_541803,Lorenzo Canonica,Canonica,Lorenzo,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,-0.48149413591517637,Overage
+238,2022_542979,Bennet Rossmy,Rossmy,Bennet,2022,F,W,DEL2,Germany,Europe,EUR,EUR,1,1.6017410429618533,Overage
+239,2022_543189,Nikolai Khvorov,Khvorov,Nikolai,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,0.3865205219502527,Early
+240,2022_543192,Sergei Ivanov,Ivanov,Sergei,2022,G,G,MHL,Russia,Europe,RUS,RUS,0,-1.5453367961226159,Early
+241,2022_543274,Gustav Karlsson,Karlsson,Gustav,2022,F,C,J20 Nationell,Sweden,Europe,SWE,SWE,0.041666666666666664,0.5601234535233385,Late
+242,2022_546739,Joshua Fahrni,Fahrni,Joshua,2022,F,C,NL,Switzerland,Europe,EUR,EUR,1,-0.30789120434209055,Overage
+243,2022_547264,Rayan Bettahar,Bettahar,Rayan,2022,D,LHD,WHL,Western Canada,North America,EUR,CAN,0,0.6184642992534721,Early
+244,2022_547652,Mattheo Reinhard,Reinhard,Mattheo,2022,F,C,U20-Elit,Switzerland,Europe,EUR,EUR,0.06521739130434782,-1.5231117253536912,Early
+245,2022_549080,Beau Jelsma,Jelsma,Beau,2022,F,F,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Early
+246,2022_550199,Klavs Veinbergs,Veinbergs,Klavs,2022,F,W,MHL,Russia,Europe,EUR,RUS,0.22950819672131148,1.4281381113887675,Overage
+247,2022_551013,Croix Kochendorfer,Kochendorfer,Croix,2022,G,G,"NAHL",USA,North America,USA,USA,0,1.0540282398692151,Late
+248,2022_551335,Jacob Guevin,Guevin,Jacob,2022,D,RHD,USHL,USA,North America,CAN,USA,0,-0.8848042748897044,Overage
+249,2022_551574,Brandon Lisowsky,Lisowsky,Brandon,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,-1.3495087937806054,Early
+250,2022_551973,Lukas Gustafsson,Gustafsson,Lukas,2022,D,LHD,USHL,USA,North America,USA,USA,0,-1.2606214184254985,Overage
+251,2022_552041,Kirill Steklov,Steklov,Kirill,2022,D,LHD,OHL,Ontario,North America,RUS,CAN,0.15625,1.5580071580929573,Overage
+252,2022_553480,Oleksii Myklukha,Myklukha,Oleksii,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,-0.6550970674882621,Overage
+253,2022_553948,Robert Baco,Baco,Robert,2022,F,W,WHL,Western Canada,North America,EUR,CAN,0,0.9073293166695101,Overage
+254,2022_556509,Brayden Schuurman,Schuurman,Brayden,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-1.3495087937806054,Early
+255,2022_556516,Grayden Siepmann,Siepmann,Grayden,2022,D,RHD,WHL,Western Canada,North America,CAN,CAN,0,-0.8848042748897044,Early
+256,2022_556656,Karlis Mezsargs,Mezsargs,Karlis,2022,G,G,MHL,Russia,Europe,EUR,RUS,0,0.05427245679543399,Late
+257,2022_556717,Ryan Chesley,Chesley,Ryan,2022,D,RHD,USDP,USA,North America,USA,USA,0,-0.13316998781811612,Early
+258,2022_556753,Petteri Nurmi,Nurmi,Petteri,2022,D,LHD,Liiga,Finland,Europe,FIN,FIN,1,-0.32107855958601317,Overage
+259,2022_558211,Ben Hemmerling,Hemmerling,Ben,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,-0.828699999061348,Early
+260,2022_558792,Colin Kessler,Kessler,Colin,2022,F,F,USHS-Prep,USA,North America,USA,USA,0,-0.48149413591517637,Early
+261,2022_559019,Keaton Dowhaniuk,Dowhaniuk,Keaton,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.32107855958601317,Early
+262,2022_559036,Luke Mittelstadt,Mittelstadt,Luke,2022,D,LHD,USHL,USA,North America,USA,USA,0,-0.8848042748897044,Overage
+263,2022_559503,Dominik Rymon,Rymon,Dominik,2022,F,F,Czechia U20,Czechia,Europe,EUR,EUR,0.06818181818181818,-0.6550970674882621,Early
+264,2022_559506,Matyas Sapovaliv,Sapovaliv,Matyas,2022,F,C,OHL,Ontario,North America,EUR,CAN,0,1.2545351798156816,Early
+265,2022_559520,Marcel Marcel,Marcel,Marcel,2022,F,W,Czechia U20,Czechia,Europe,EUR,EUR,0.2753623188405797,1.948946906108025,Late
+266,2022_559522,David Jiricek,Jiricek,David,2022,D,RHD,Czechia,Czechia,Europe,EUR,EUR,1,1.1821900145571633,Late
+267,2022_559537,Tomas Hamara,Hamara,Tomas,2022,D,LHD,U20 SM-sarja,Finland,Europe,EUR,FIN,0.45161290322580644,-0.5089871313539103,Early
+268,2022_559551,David Spacek,Spacek,David,2022,D,RHD,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,-0.32107855958601317,Overage
+269,2022_560848,Marco Kasper,Kasper,Marco,2022,F,C,SHL,Sweden,Europe,EUR,SWE,0.8194444444444444,0.5601234535233385,Early
+270,2022_560982,Marcus Nguyen,Nguyen,Marcus,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,-0.828699999061348,Early
+271,2022_560989,Jaren Brinson,Brinson,Jaren,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,0.6184642992534721,Early
+272,2022_560991,Nicholas Wolfenberg,Wolfenberg,Nicholas,2022,D,RHD,AJHL,Western Canada,North America,CAN,CAN,0,0.054738583949780935,Early
+273,2022_561331,Kyle Chyzowski,Chyzowski,Kyle,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-0.828699999061348,Early
+274,2022_561338,Mathew Ward,Ward,Mathew,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-1.696714656926777,Early
+275,2022_561339,Noah Dorey,Dorey,Noah,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,1.1821900145571633,Overage
+276,2022_561615,Luca Hauf,Hauf,Luca,2022,F,F,Germany3,Germany,Europe,EUR,EUR,0.9375,-0.30789120434209055,Early
+277,2022_561976,Pavol Stetka,Stetka,Pavol,2022,F,C,Czechia U20,Czechia,Europe,EUR,EUR,0.02,2.4697557008272826,Late
+278,2022_562220,David Goyette,Goyette,David,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+279,2022_562236,Owen Allard,Allard,Owen,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.9073293166695101,Early
+280,2022_562241,Jorian Donovan,Donovan,Jorian,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,0.6184642992534721,Early
+281,2022_562349,Eskild Bakke Olsen,Bakke Olsen,Eskild,2022,F,C,Norway,Norway,Europe,EUR,EUR,1,0.21291759037716687,Overage
+282,2022_562425,Oasiz Wiesblatt,Wiesblatt,Oasiz,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,-1.696714656926777,Early
+283,2022_562987,Oskar Pettersson,Pettersson,Oskar,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0,0.7337263850964243,Early
+284,2022_563019,Nick Ring,Ring,Nick,2022,F,F,"NAHL",USA,North America,USA,USA,0,-0.48149413591517637,Late
+285,2022_563050,Brayden Schmitt,Schmitt,Brayden,2022,D,RHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.8848042748897044,Early
+286,2022_563125,Duncan Ramsay,Ramsay,Duncan,2022,D,LHD,USHS-Prep,USA,North America,CAN,USA,0,1.5580071580929573,Early
+287,2022_563410,Landon Sim,Sim,Landon,2022,F,F,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+288,2022_563417,Luke Woodworth,Woodworth,Luke,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-1.3495087937806054,Early
+289,2022_563418,Ryan Hopkins,Hopkins,Ryan,2022,D,RHD,BCHL,Western Canada,North America,CAN,CAN,0,0.054738583949780935,Early
+290,2022_563442,Jacob Newcombe,Newcombe,Jacob,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.039314658804081075,Early
+291,2022_563446,Jake Furlong,Furlong,Jake,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.054738583949780935,Early
+292,2022_564243,Roman Kechter,Kechter,Roman,2022,F,F,J20 Nationell,Sweden,Europe,EUR,SWE,0,-0.48149413591517637,Early
+293,2022_564250,Simon Wolf,Wolf,Simon,2022,G,G,Czechia U20,Czechia,Europe,EUR,EUR,0,0.25422361341019023,Early
+294,2022_564455,Joel Ratkovic-Berndtsson,Ratkovic-Berndtsson,Joel,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0,0.21291759037716687,Late
+295,2022_565465,Jagger Firkus,Firkus,Jagger,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,-0.828699999061348,Early
+296,2022_565725,Jake Sloan,Sloan,Jake,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,1.775343974534939,Early
+297,2022_565737,Logan McCutcheon,McCutcheon,Logan,2022,D,RHD,WHL,Western Canada,North America,CAN,CAN,0,-1.8243471337291897,Early
+298,2022_565786,Dylan Ernst,Ernst,Dylan,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,0.05427245679543399,Early
+299,2022_565973,Mason Beaupit,Beaupit,Mason,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,1.4539305530987277,Late
+300,2022_566116,Markus Vidicek,Vidicek,Markus,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.828699999061348,Early
+301,2022_566399,Joel Kjellberg,Kjellberg,Joel,2022,D,RHD,J20 Nationell,Sweden,Europe,SWE,SWE,0,-0.32107855958601317,Early
+302,2022_566424,Cole Knuble,Knuble,Cole,2022,F,W,USHL,USA,North America,USA,USA,0,-1.0023029306344338,Early
+303,2022_567391,Helmer Styf,Styf,Helmer,2022,F,C,J20 Nationell,Sweden,Europe,SWE,SWE,0.23214285714285715,-0.48149413591517637,Early
+304,2022_568027,Joel Jonsson,Jonsson,Joel,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.09523809523809523,-1.5231117253536912,Early
+305,2022_568036,Yegor Guskov,Guskov,Yegor,2022,G,G,MHL,Russia,Europe,RUS,RUS,0,-1.5453367961226159,Overage
+306,2022_568363,Jordan Dumais,Dumais,Jordan,2022,F,W,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-1.696714656926777,Early
+307,2022_568366,Michael La Starza,La Starza,Michael,2022,F,W,USHL,USA,North America,CAN,USA,0,-0.48149413591517637,Early
+308,2022_568715,Samuel Jonsson,Jonsson,Samuel,2022,G,G,J20 Nationell,Sweden,Europe,SWE,SWE,0,1.4539305530987277,Late
+309,2022_568895,Karl Persman,Persman,Karl,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.17647058823529413,2.873367160468237,Overage
+310,2022_568966,Ryder Thompson,Thompson,Ryder,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.8848042748897044,Early
+311,2022_569232,Connor Hvidston,Hvidston,Connor,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,0.9073293166695101,Early
+312,2022_569291,Kyren Gronick,Gronick,Kyren,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-0.48149413591517637,Early
+313,2022_569305,Matthew Perkins,Perkins,Matthew,2022,F,C,SJHL,Western Canada,North America,CAN,CAN,0,-0.48149413591517637,Early
+314,2022_569854,Vyacheslav Buteyets,Buteyets,Vyacheslav,2022,G,G,MHL,Russia,Europe,RUS,RUS,0.39285714285714285,1.0540282398692151,Overage
+315,2022_570613,Charles-Edward Gravel,Gravel,Charles-Edward,2022,G,G,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.9454833262783471,Early
+316,2022_570743,Francesco Iasenza,Iasenza,Francesco,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.32107855958601317,Early
+317,2022_570755,Michael Mastrodomenico,Mastrodomenico,Michael,2022,D,RHD,USHL,USA,North America,CAN,USA,0,0.6184642992534721,Early
+318,2022_570931,Denton Mateychuk,Mateychuk,Denton,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.8848042748897044,Early
+319,2022_571034,Conor Geekie,Geekie,Conor,2022,F,C,WHL,Western Canada,North America,CAN,CAN,0,1.775343974534939,Early
+320,2022_571048,Carson Buydens,Buydens,Carson,2022,F,C,MJHL,Western Canada,North America,CAN,CAN,0,1.2545351798156816,Early
+321,2022_571073,Reid Dyck,Dyck,Reid,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,1.0540282398692151,Early
+322,2022_571226,Justin Cote,Cote,Justin,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-2.564729314792206,Early
+323,2022_571503,Axel Mangbo,Mangbo,Axel,2022,G,G,USHL,USA,North America,SWE,USA,0,0.45417477002494644,Overage
+324,2022_571897,Jeremiah Slavin,Slavin,Jeremiah,2022,D,LHD,USHL,USA,North America,USA,USA,0,0.6184642992534721,Early
+325,2022_571919,Pavel Bocharov,Bocharov,Pavel,2022,D,RHD,WHL,Western Canada,North America,USA,CAN,0,-0.32107855958601317,Early
+326,2022_571946,Jake Livanavage,Livanavage,Jake,2022,D,LHD,USHL,USA,North America,USA,USA,0,-1.4485299901933955,Early
+327,2022_571957,Garrett Brown,Brown,Garrett,2022,D,RHD,USHL,USA,North America,USA,USA,0,0.430555727485575,Early
+328,2022_572098,Daimon Gardner,Gardner,Daimon,2022,F,C,USHS-MN,USA,North America,CAN,USA,0,1.775343974534939,Early
+329,2022_572099,Josh Filmon,Filmon,Josh,2022,F,W,WHL,Western Canada,North America,CAN,CAN,0,0.9073293166695101,Early
+330,2022_572877,Pier-Olivier Roy,Roy,Pier-Olivier,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-1.2606214184254985,Early
+331,2022_573377,Matthew Kieper,Kieper,Matthew,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,-0.5455810130488347,Early
+332,2022_573863,Marc-Andre Gaudet,Gaudet,Marc-Andre,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,1.1821900145571633,Late
+333,2022_573869,Dyllan Gill,Gill,Dyllan,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.6184642992534721,Early
+334,2022_573943,Samuel Savoie,Savoie,Samuel,2022,F,F,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.828699999061348,Early
+335,2022_574056,Riley Mercer,Mercer,Riley,2022,G,G,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.5455810130488347,Early
+336,2022_574581,Emanuelson Charbonneau,Charbonneau,Emanuelson,2022,D,RHD,BCHL,Western Canada,North America,CAN,CAN,0,0.6184642992534721,Early
+337,2022_574583,Yoan Loshing,Loshing,Yoan,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-1.3495087937806054,Early
+338,2022_574586,Noah Warren,Warren,Noah,2022,D,RHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,1.9338243016287515,Early
+339,2022_574610,Gabriel Kangas,Kangas,Gabriel,2022,F,F,HockeyAllsvenskan,Sweden,Europe,SWE,SWE,0.6486486486486487,-0.48149413591517637,Late
+340,2022_574663,Linus Hemstrom,Hemstrom,Linus,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.0196078431372549,-0.13428827276900474,Early
+341,2022_574743,Leo Gruba,Gruba,Leo,2022,D,RHD,USHS-MN,USA,North America,USA,USA,0,0.6184642992534721,Late
+342,2022_574814,Andrew Oke,Oke,Andrew,2022,G,G,OHL,Ontario,North America,USA,CAN,0,0.05427245679543399,Early
+343,2022_574819,Frank Nazar,Nazar,Frank,2022,F,F,USDP,USA,North America,USA,USA,0,-1.3495087937806054,Early
+344,2022_574821,Maxim Namestnikov,Namestnikov,Maxim,2022,F,C,OHL,Ontario,North America,USA,CAN,0,-1.696714656926777,Early
+345,2022_574824,Zach Filak,Filak,Zach,2022,F,C,OHL,Ontario,North America,USA,CAN,0,0.9073293166695101,Early
+346,2022_574842,Brennan Ali,Ali,Brennan,2022,F,C,USHS-Prep,USA,North America,USA,USA,0,0.039314658804081075,Early
+347,2022_574931,Elias Salomonsson,Salomonsson,Elias,2022,D,RHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.20408163265306123,0.242647155717678,Early
+348,2022_576365,Matthew Maltais,Maltais,Matthew,2022,F,C,BCHL,Western Canada,North America,CAN,CAN,0,0.7337263850964243,Early
+349,2022_576869,Hobie Hedquist,Hedquist,Hobie,2022,G,G,BCHL,Western Canada,North America,USA,CAN,0,0.05427245679543399,Overage
+350,2022_577223,Alexander Labraaten,Labraaten,Alexander,2022,F,W,J18 Region,Sweden,Europe,SWE,SWE,0,0.9073293166695101,Early
+351,2022_577575,Mattias Havelid,Havelid,Mattias,2022,D,RHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.3709677419354839,-1.4485299901933955,Late
+352,2022_577649,Francois-James Buteau,Buteau,Francois-James,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,1.5580071580929573,Early
+353,2022_578244,Angus Booth,Booth,Angus,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-0.32107855958601317,Early
+354,2022_578759,Hugo Havelid,Havelid,Hugo,2022,G,G,J20 Nationell,Sweden,Europe,SWE,SWE,0,-1.745287952737372,Late
+355,2022_578760,Filip Bystedt,Bystedt,Filip,2022,F,C,J20 Nationell,Sweden,Europe,SWE,SWE,0.23076923076923078,1.6017410429618533,Early
+356,2022_578967,Marian Mosko,Mosko,Marian,2022,D,LHD,18U AAA,USA,North America,EUR,USA,0,-0.6968957031218073,Early
+357,2022_578985,Antonin Verreault,Verreault,Antonin,2022,F,W,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,-1.696714656926777,Early
+358,2022_578989,Maveric Lamoureux,Lamoureux,Maveric,2022,D,RHD,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,2.873367160468237,Early
+359,2022_578998,Alex Blais,Blais,Alex,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,CAN,CAN,0,0.039314658804081075,Early
+360,2022_579149,Abram Wiebe,Wiebe,Abram,2022,D,LHD,BCHL,Western Canada,North America,CAN,CAN,0,1.1821900145571633,Overage
+361,2022_579198,Jiri Kulich,Kulich,Jiri,2022,F,C,Czechia,Czechia,Europe,EUR,EUR,0.896551724137931,-0.13428827276900474,Early
+362,2022_579263,Robin Sapousek,Sapousek,Robin,2022,F,C,Czechia U20,Czechia,Europe,EUR,EUR,0,0.21291759037716687,Early
+363,2022_579439,Jakub Krizan,Krizan,Jakub,2022,F,W,Slovakia2,Slovakia,Europe,EUR,EUR,0.4782608695652174,-0.13428827276900474,Early
+364,2022_580641,Owen Pickering,Pickering,Owen,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,1.5580071580929573,Early
+365,2022_581035,Layton Feist,Feist,Layton,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-1.2606214184254985,Early
+366,2022_582267,Kenta Isogai,Isogai,Kenta,2022,F,F,USHL,USA,North America,EUR,USA,0,-0.48149413591517637,Early
+367,2022_582517,Tyler Savard,Savard,Tyler,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,0.9073293166695101,Overage
+368,2022_582646,Braeden Bowman,Bowman,Braeden,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,0.9073293166695101,Overage
+369,2022_582653,Christian Kyrou,Kyrou,Christian,2022,D,RHD,OHL,Ontario,North America,CAN,CAN,0,-1.2606214184254985,Late
+370,2022_582769,Josh Rosenzweig,Rosenzweig,Josh,2022,G,G,OHL,Ontario,North America,CAN,CAN,0,0.05427245679543399,Overage
+371,2022_583840,Jakub Kopecky,Kopecky,Jakub,2022,F,F,Slovakia U20,Slovakia,Europe,EUR,EUR,0.1590909090909091,1.4281381113887675,Early
+372,2022_584833,Ty Young,Young,Ty,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,0.6541259266397027,Early
+373,2022_585832,Martin Johnsen,Johnsen,Martin,2022,F,C,J20 Nationell,Sweden,Europe,EUR,SWE,0.25,-0.828699999061348,Early
+374,2022_586604,Paxton Geisel,Geisel,Paxton,2022,G,G,USHL,USA,North America,CAN,USA,0,-0.5455810130488347,Early
+375,2022_588575,Semyon Demidov,Demidov,Semyon,2022,F,F,MHL,Russia,Europe,RUS,RUS,0.4406779661016949,-1.0023029306344338,Overage
+376,2022_588623,Theo Wallberg,Wallberg,Theo,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0,1.5580071580929573,Late
+377,2022_589605,Simon Nemec,Nemec,Simon,2022,D,RHD,Slovakia,Slovakia,Europe,EUR,EUR,1,0.054738583949780935,Early
+378,2022_590628,Ludvig Jansson,Jansson,Ludvig,2022,D,RHD,HockeyAllsvenskan,Sweden,Europe,SWE,SWE,0.8448275862068966,-0.5089871313539103,Late
+379,2022_593187,Ondrej Becher,Becher,Ondrej,2022,F,W,Czechia U20,Czechia,Europe,EUR,EUR,0.1509433962264151,0.039314658804081075,Early
+380,2022_593365,Maddox Fleming,Fleming,Maddox,2022,F,W,USHL,USA,North America,USA,USA,0,-0.13428827276900474,Early
+381,2022_595483,Alexander Suvorov,Suvorov,Alexander,2022,F,F,KHL,Russia,Europe,EUR,RUS,1,-1.5231117253536912,Overage
+382,2022_599271,Matthew Morden,Morden,Matthew,2022,D,LHD,CAHS,Canada,North America,CAN,CAN,0,1.5580071580929573,Early
+383,2022_600871,Sam Alfano,Alfano,Sam,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,1.4281381113887675,Early
+384,2022_601094,Kasper Kulonummi,Kulonummi,Kasper,2022,D,RHD,U20 SM-sarja,Finland,Europe,FIN,FIN,0.058823529411764705,-0.32107855958601317,Early
+385,2022_601111,Julian Lutz,Lutz,Julian,2022,F,W,DEL,Germany,Europe,EUR,EUR,1,0.3865205219502527,Early
+386,2022_601313,Tyler Muszelik,Muszelik,Tyler,2022,G,G,USDP,USA,North America,USA,USA,0,0.6541259266397027,Early
+387,2022_602539,Platon Zadorozhny,Zadorozhny,Platon,2022,G,G,USHL,USA,North America,RUS,USA,0.2222222222222222,-0.5455810130488347,Overage
+388,2022_602874,Tommi Mannisto,Mannisto,Tommi,2022,F,W,U20 SM-sarja,Finland,Europe,FIN,FIN,0,-0.13428827276900474,Early
+389,2022_603026,Thomas Gronlund,Gronlund,Thomas,2022,D,LHD,U20 SM-sarja,Finland,Europe,FIN,FIN,0,-0.8848042748897044,Early
+390,2022_603443,Gabriel Koch,Koch,Gabriel,2022,D,LHD,Norway,Norway,Europe,EUR,EUR,0.782608695652174,-0.8848042748897044,Early
+391,2022_603614,Hunter Haight,Haight,Hunter,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.6550970674882621,Early
+392,2022_603637,William Hughes,Hughes,William,2022,F,C,USHS-Prep,USA,North America,USA,USA,0,1.4281381113887675,Early
+393,2022_603638,Cameron Lund,Lund,Cameron,2022,F,C,USHL,USA,North America,USA,USA,0,0.9073293166695101,Early
+394,2022_603639,Jackson Dorrington,Dorrington,Jackson,2022,D,LHD,USHL,USA,North America,USA,USA,0,0.6184642992534721,Early
+395,2022_603640,Christopher Romaine,Romaine,Christopher,2022,D,RHD,18U AAA,USA,North America,USA,USA,0,-0.32107855958601317,Early
+396,2022_603642,Brady Berard,Berard,Brady,2022,F,F,USDP,USA,North America,USA,USA,0,0.3865205219502527,Early
+397,2022_603644,Michael Callow,Callow,Michael,2022,F,W,USHS-Prep,USA,North America,USA,USA,0,1.775343974534939,Early
+398,2022_603668,Isaac Howard,Howard,Isaac,2022,F,W,USDP,USA,North America,USA,USA,0,-0.828699999061348,Early
+399,2022_603702,Finn Loftus,Loftus,Finn,2022,D,LHD,USHS-MN,USA,North America,USA,USA,0,0.054738583949780935,Early
+400,2022_603774,Ryan Abraham,Abraham,Ryan,2022,F,C,OHL,Ontario,North America,USA,CAN,0,-1.696714656926777,Early
+401,2022_603777,Domenic DiVincentiis,DiVincentiis,Domenic,2022,G,G,OHL,Ontario,North America,CAN,CAN,0,-0.14567869981932222,Early
+402,2022_603788,Paul Ludwinski,Ludwinski,Paul,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+403,2022_603794,Ty Nelson,Nelson,Ty,2022,D,RHD,OHL,Ontario,North America,CAN,CAN,0,-1.2606214184254985,Early
+404,2022_605131,Sebastian Nahalka,Nahalka,Sebastian,2022,D,LHD,Slovakia U20,Slovakia,Europe,EUR,EUR,0.4,0.054738583949780935,Early
+405,2022_607521,Connor Toms,Toms,Connor,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,-0.32107855958601317,Early
+406,2022_607525,Calle Odelius,Odelius,Calle,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.11475409836065574,-0.32107855958601317,Early
+407,2022_608132,Nick Pierre,Pierre,Nick,2022,F,F,USHL,USA,North America,USA,USA,0,-1.3495087937806054,Early
+408,2022_608512,Sami Paivarinta,Paivarinta,Sami,2022,F,C,Liiga,Finland,Europe,FIN,FIN,0.5967741935483871,-1.3495087937806054,Overage
+409,2022_609488,Micah Berger,Berger,Micah,2022,F,W,18U AAA,USA,North America,USA,USA,0,-0.48149413591517637,Early
+410,2022_609494,Cameron O'Neill,O'Neill,Cameron,2022,F,W,18U AAA,USA,North America,USA,USA,0,0.3865205219502527,Early
+411,2022_611825,Jani Nyman,Nyman,Jani,2022,F,W,Mestis,Finland,Europe,FIN,FIN,0.9387755102040817,1.4281381113887675,Early
+412,2022_615517,Samuel Smajda,Smajda,Samuel,2022,F,W,Czechia U20,Czechia,Europe,EUR,EUR,0,-0.30789120434209055,Early
+413,2022_615535,Dominik Pavlata,Pavlata,Dominik,2022,F,F,Czechia U20,Czechia,Europe,EUR,EUR,0,0.039314658804081075,Early
+414,2022_615543,Lukas Plos,Plos,Lukas,2022,F,F,Czechia U20,Czechia,Europe,EUR,EUR,0,1.775343974534939,Early
+415,2022_615545,Vojtech Polak,Polak,Vojtech,2022,F,W,Czechia U20,Czechia,Europe,EUR,EUR,0,-0.6550970674882621,Early
+416,2022_616241,Jared Wright,Wright,Jared,2022,F,W,USHL,USA,North America,USA,USA,0,0.3865205219502527,Overage
+417,2022_617526,Jack Hughes,Hughes,Jack,2022,F,C,NCAA,USA,North America,USA,USA,0.5,-0.48149413591517637,Late
+418,2022_617529,Nolan Joyce,Joyce,Nolan,2022,D,RHD,USHS-Prep,USA,North America,USA,USA,0,-0.32107855958601317,Late
+419,2022_617935,Daniil Ivanov,Ivanov,Daniil,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0.23076923076923078,1.5580071580929573,Late
+420,2022_618304,Viktor Neuchev,Neuchev,Viktor,2022,F,W,MHL,Russia,Europe,RUS,RUS,0.08955223880597014,0.9073293166695101,Late
+421,2022_619146,Maxim Arefyev,Arefyev,Maxim,2022,G,G,MHL,Russia,Europe,RUS,RUS,0,-0.5455810130488347,Overage
+422,2022_619189,Danny Zhilkin,Zhilkin,Danny,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.3865205219502527,Late
+423,2022_619190,Tucker Robertson,Robertson,Tucker,2022,F,F,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Overage
+424,2022_619370,Maxim Glinsky,Glinsky,Maxim,2022,D,LHD,Belarus,Belarus,Europe,EUR,EUR,1,-0.8848042748897044,Early
+425,2022_619376,Daniil Bourosh,Bourosh,Daniil,2022,F,C,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,0.039314658804081075,Early
+426,2022_620086,Vladislav Romanov,Romanov,Vladislav,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,0.3865205219502527,Late
+427,2022_620245,Jordin Palmer,Palmer,Jordin,2022,D,LHD,USHS-Prep,USA,North America,USA,USA,0,0.6184642992534721,Early
+428,2022_620259,Dylan Silverstein,Silverstein,Dylan,2022,G,G,USDP,USA,North America,USA,USA,0,-0.9454833262783471,Early
+429,2022_620266,Otto Hokkanen,Hokkanen,Otto,2022,F,F,Liiga,Finland,Europe,FIN,FIN,0.5925925925925926,0.9073293166695101,Early
+430,2022_620270,Topias Leinonen,Leinonen,Topias,2022,G,G,U20 SM-sarja,Finland,Europe,FIN,FIN,0.2222222222222222,1.4539305530987277,Early
+431,2022_620321,Artyom Duda,Duda,Artyom,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0.04938271604938271,0.054738583949780935,Early
+432,2022_620324,Artyom Barabosha,Barabosha,Artyom,2022,D,RHD,MHL,Russia,Europe,RUS,RUS,0,0.6184642992534721,Early
+433,2022_620325,Kirill Volkov,Volkov,Kirill,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0,-0.6968957031218073,Early
+434,2022_620329,Kirill Dolzhenkov,Dolzhenkov,Kirill,2022,F,W,MHL,Russia,Europe,RUS,RUS,0,2.816961563973454,Early
+435,2022_620347,Dalyn Wakely,Wakely,Dalyn,2022,F,F,OHL,Ontario,North America,CAN,CAN,0,0.3865205219502527,Early
+436,2022_620743,Vladimir Andreyev,Andreyev,Vladimir,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,2.4697557008272826,Late
+437,2022_620757,Jakub Hujer,Hujer,Jakub,2022,F,F,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,1.2545351798156816,Early
+438,2022_623765,Tristan Sarsland,Sarsland,Tristan,2022,D,RHD,USHS-MN,USA,North America,USA,USA,0,-0.32107855958601317,Early
+439,2022_623782,Alex Bump,Bump,Alex,2022,F,W,USHL,USA,North America,USA,USA,0,0.039314658804081075,Late
+440,2022_623812,Dylan Godbout,Godbout,Dylan,2022,F,F,USHS-MN,USA,North America,USA,USA,0,-0.48149413591517637,Early
+441,2022_623814,Barrett Hall,Hall,Barrett,2022,F,C,"NAHL",USA,North America,USA,USA,0,0.039314658804081075,Late
+442,2022_623815,Gavin O'Connell,O'Connell,Gavin,2022,F,W,USHL,USA,North America,USA,USA,0,0.039314658804081075,Early
+443,2022_623832,Jimmy Snuggerud,Snuggerud,Jimmy,2022,F,W,USDP,USA,North America,USA,USA,0,0.7337263850964243,Early
+444,2022_623833,Cole Spicer,Spicer,Cole,2022,F,C,USDP,USA,North America,USA,USA,0,-0.6550970674882621,Early
+445,2022_626521,Seamus Powell,Powell,Seamus,2022,D,LHD,USDP,USA,North America,USA,USA,0,-0.32107855958601317,Early
+446,2022_626544,Owen Mehlenbacher,Mehlenbacher,Owen,2022,F,C,USHL,USA,North America,CAN,USA,0,0.9073293166695101,Early
+447,2022_626551,George Fegaras,Fegaras,George,2022,D,RHD,OJHL,Ontario,North America,CAN,CAN,0,0.054738583949780935,Early
+448,2022_626552,Tnias Mathurin,Mathurin,Tnias,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,1.1821900145571633,Early
+449,2022_628483,Patrik Juhola,Juhola,Patrik,2022,F,C,U20 SM-sarja,Finland,Europe,FIN,FIN,0.06521739130434782,1.4281381113887675,Late
+450,2022_628519,Miko Matikka,Matikka,Miko,2022,F,W,U20 SM-sarja,Finland,Europe,FIN,FIN,0,1.4281381113887675,Late
+451,2022_628584,Kasper Lundell,Lundell,Kasper,2022,F,F,U20 SM-sarja,Finland,Europe,FIN,FIN,0,-0.48149413591517637,Early
+452,2022_629427,Yegor Savikov,Savikov,Yegor,2022,D,LHD,KHL,Russia,Europe,RUS,RUS,0.6721311475409836,-1.4485299901933955,Overage
+453,2022_630001,Chase Coward,Coward,Chase,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,0.05427245679543399,Overage
+454,2022_630036,Ben Strinden,Strinden,Ben,2022,F,C,USHL,USA,North America,USA,USA,0,0.039314658804081075,Overage
+455,2022_630047,Quinn Finley,Finley,Quinn,2022,F,W,USHL,USA,North America,USA,USA,0,0.039314658804081075,Early
+456,2022_634828,Cade Littler,Littler,Cade,2022,F,C,BCHL,Western Canada,North America,USA,CAN,0,1.4281381113887675,Early
+457,2022_634873,Samu Bau,Bau,Samu,2022,F,F,U20 SM-sarja,Finland,Europe,FIN,FIN,0,1.775343974534939,Early
+458,2022_635386,Tyson Dyck,Dyck,Tyson,2022,F,C,BCHL,Western Canada,North America,CAN,CAN,0,0.039314658804081075,Early
+459,2022_635389,Mats Lindgren,Lindgren,Mats,2022,D,LHD,WHL,Western Canada,North America,CAN,CAN,0,-0.32107855958601317,Early
+460,2022_635399,Gavin Hayes,Hayes,Gavin,2022,F,W,OHL,Ontario,North America,USA,CAN,0,0.3865205219502527,Early
+461,2022_636660,Kolby Hay,Hay,Kolby,2022,G,G,WHL,Western Canada,North America,CAN,CAN,0,1.4539305530987277,Early
+462,2022_636732,Ty Paisley,Paisley,Ty,2022,F,F,MJHL,Western Canada,North America,CAN,CAN,0,0.7337263850964243,Early
+463,2022_637043,Zam Plante,Plante,Zam,2022,F,C,USHL,USA,North America,USA,USA,0,-1.0023029306344338,Early
+464,2022_637266,Harrison Ballard,Ballard,Harrison,2022,F,C,OJHL,Ontario,North America,CAN,CAN,0,0.9073293166695101,Early
+465,2022_637647,Maximilian Streule,Streule,Maximilian,2022,D,LHD,WHL,Western Canada,North America,EUR,CAN,0,-0.5089871313539103,Late
+466,2022_637872,Erik Pahlsson,Pahlsson,Erik,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0,-0.30789120434209055,Early
+467,2022_638391,Dans Locmelis,Locmelis,Dans,2022,F,C,J20 Nationell,Sweden,Europe,EUR,SWE,0.03333333333333333,0.21291759037716687,Early
+468,2022_638436,Niks Fenenko,Fenenko,Niks,2022,D,LHD,QMJHL,Quebec/Atlantic Canada,North America,EUR,CAN,0,0.242647155717678,Early
+469,2022_638444,Sandis Vilmanis,Vilmanis,Sandis,2022,F,W,J20 Nationell,Sweden,Europe,EUR,SWE,0,0.5601234535233385,Early
+470,2022_638635,Venni Tolppola,Tolppola,Venni,2022,F,F,U20 SM-sarja,Finland,Europe,FIN,FIN,0,0.21291759037716687,Early
+471,2022_638690,Topi Ronni,Ronni,Topi,2022,F,C,U20 SM-sarja,Finland,Europe,FIN,FIN,0.41818181818181815,0.9073293166695101,Early
+472,2022_638726,Nestor Noiva,Noiva,Nestor,2022,F,W,U18 SM-sarja,Finland,Europe,FIN,FIN,0,0.039314658804081075,Early
+473,2022_638727,Otto Salin,Salin,Otto,2022,D,RHD,U20 SM-sarja,Finland,Europe,FIN,FIN,0.35294117647058826,-0.8848042748897044,Early
+474,2022_639024,Konsta Kapanen,Kapanen,Konsta,2022,F,W,U20 SM-sarja,Finland,Europe,FIN,FIN,0.18333333333333332,-1.696714656926777,Late
+475,2022_639914,Ralf Rollinger,Rollinger,Ralf,2022,F,F,DNL U20,Germany,Europe,EUR,EUR,0.15555555555555556,-0.6550970674882621,Early
+476,2022_639974,Alexander Palchik,Palchik,Alexander,2022,F,W,Belarus,Belarus,Europe,EUR,EUR,1,0.21291759037716687,Overage
+477,2022_640282,Amadeus Lombardi,Lombardi,Amadeus,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Overage
+478,2022_640301,Kazimier Sobieski,Sobieski,Kazimier,2022,D,RHD,USHS-Prep,USA,North America,USA,USA,0,-0.32107855958601317,Early
+479,2022_640598,Jakub Vondras,Vondras,Jakub,2022,G,G,Czechia U20,Czechia,Europe,EUR,EUR,0.0425531914893617,0.6541259266397027,Early
+480,2022_640621,Aleksanteri Kaskimaki,Kaskimaki,Aleksanteri,2022,F,C,U20 SM-sarja,Finland,Europe,FIN,FIN,0.10810810810810811,0.039314658804081075,Early
+481,2022_640786,Justin Dezoete,Dezoete,Justin,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,0.039314658804081075,Early
+482,2022_640853,Bryce McConnell-Barker,McConnell-Barker,Bryce,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.3865205219502527,Early
+483,2022_640893,Rasmus Rudslatt,Rudslatt,Rasmus,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.05405405405405406,-0.13428827276900474,Early
+484,2022_641020,Elias Pettersson,Pettersson,Elias,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.2328767123287671,0.8063728710213691,Early
+485,2022_641504,Nino Tomov,Tomov,Nino,2022,D,LHD,Czechia U20,Czechia,Europe,EUR,EUR,0.1044776119402985,-0.8848042748897044,Early
+486,2022_643091,Filip Nordberg,Nordberg,Filip,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.16363636363636364,1.7459157298608545,Early
+487,2022_644351,James Fisher,Fisher,James,2022,F,F,USHS-Prep,USA,North America,USA,USA,0,0.9073293166695101,Early
+488,2022_645305,Kasper Magnussen,Magnussen,Kasper,2022,F,F,J20 Nationell,Sweden,Europe,EUR,SWE,0.109375,0.039314658804081075,Early
+489,2022_645891,Spencer Penner,Penner,Spencer,2022,D,RHD,MJHL,Western Canada,North America,CAN,CAN,0,-0.32107855958601317,Early
+490,2022_646122,Gavin Bryant,Bryant,Gavin,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.039314658804081075,Early
+491,2022_646146,Owen Van Steensel,Van Steensel,Owen,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Early
+492,2022_646148,Zander Veccia,Veccia,Zander,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Early
+493,2022_646161,Caeden Carlisle,Carlisle,Caeden,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,0.054738583949780935,Early
+494,2022_647501,Theo Widen Schade,Widen Schade,Theo,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0,0.8063728710213691,Early
+495,2022_647763,Hugo Fransson,Fransson,Hugo,2022,D,LHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.09230769230769231,-0.8848042748897044,Early
+496,2022_647931,Nolan Lalonde,Lalonde,Nolan,2022,G,G,OHL,Ontario,North America,CAN,CAN,0,-0.5455810130488347,Early
+497,2022_647942,Owen Beck,Beck,Owen,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,0.039314658804081075,Early
+498,2022_647950,Taos Jordan,Jordan,Taos,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,-1.8243471337291897,Early
+499,2022_648832,Zaccharya Wisdom,Wisdom,Zaccharya,2022,F,W,USHL,USA,North America,CAN,USA,0,-0.13428827276900474,Early
+500,2022_648869,Jake Karabela,Karabela,Jake,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+501,2022_648930,Lukas Swedin,Swedin,Lukas,2022,G,G,J20 Nationell,Sweden,Europe,SWE,SWE,0,-2.545092579196397,Early
+502,2022_649220,Jonathan Lekkerimaki,Lekkerimaki,Jonathan,2022,F,W,J20 Nationell,Sweden,Europe,SWE,SWE,0.5,-0.30789120434209055,Early
+503,2022_649403,Roberto Mancini,Mancini,Roberto,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,1.1821900145571633,Overage
+504,2022_650072,Tyson Jugnauth,Jugnauth,Tyson,2022,D,LHD,BCHL,Western Canada,North America,CAN,CAN,0,-0.32107855958601317,Early
+505,2022_650079,Max Graham,Graham,Max,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,1.2545351798156816,Early
+506,2022_651538,Logan Cooley,Cooley,Logan,2022,F,C,USDP,USA,North America,USA,USA,0,-0.6550970674882621,Early
+507,2022_651788,Colton Smith,Smith,Colton,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,0.9073293166695101,Early
+508,2022_651884,Vladimir Grudinin,Grudinin,Vladimir,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0.49019607843137253,-1.4485299901933955,Late
+509,2022_651974,Jack Sparkes,Sparkes,Jack,2022,D,RHD,OJHL,Ontario,North America,CAN,CAN,0,2.873367160468237,Late
+510,2022_652102,Brady Stonehouse,Stonehouse,Brady,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,-0.828699999061348,Early
+511,2022_652832,Nikita Grebyonkin,Grebyonkin,Nikita,2022,F,W,MHL,Russia,Europe,RUS,RUS,0.014705882352941176,0.7337263850964243,Overage
+512,2022_653128,Matej Tomas,Tomas,Matej,2022,D,RHD,Slovakia U20,Slovakia,Europe,EUR,EUR,0.34782608695652173,-0.6968957031218073,Early
+513,2022_655167,Michael Fisher,Fisher,Michael,2022,D,RHD,USHS-Prep,USA,North America,USA,USA,0,0.8063728710213691,Early
+514,2022_655333,Beau Lane,Lane,Beau,2022,G,G,USHS-Prep,USA,North America,USA,USA,0,0.45417477002494644,Early
+515,2022_655345,Ryan Healey,Healey,Ryan,2022,D,RHD,USHL,USA,North America,USA,USA,0,-0.32107855958601317,Early
+516,2022_655950,Luca Auer,Auer,Luca,2022,F,F,AlpsHL,Austria,Europe,EUR,EUR,0.9444444444444444,0.3865205219502527,Early
+517,2022_656109,Livio Curdin Truog,Curdin Truog,Livio,2022,F,W,SL,Switzerland,Europe,EUR,EUR,0.7246376811594203,-1.1759058622075196,Late
+518,2022_656832,Eric Pohlkamp,Pohlkamp,Eric,2022,D,RHD,USHL,USA,North America,USA,USA,0,-1.2606214184254985,Early
+519,2022_657773,Michael Schnattinger,Schnattinger,Michael,2022,G,G,Czechia U20,Czechia,Europe,EUR,EUR,0.025,-0.9454833262783471,Early
+520,2022_657775,Tomas Hebek,Hebek,Tomas,2022,D,LHD,Czechia U20,Czechia,Europe,EUR,EUR,0,1.7459157298608545,Early
+521,2022_658117,Aaron Pionk,Pionk,Aaron,2022,D,LHD,"NAHL",USA,North America,USA,USA,0,0.430555727485575,Overage
+522,2022_661347,Mason Kesselring,Kesselring,Mason,2022,F,F,USHS-Prep,USA,North America,USA,USA,0,1.4281381113887675,Early
+523,2022_661581,Matthew Poitras,Poitras,Matthew,2022,F,C,OHL,Ontario,North America,CAN,CAN,0,-0.48149413591517637,Early
+524,2022_661584,Nolan Collins,Collins,Nolan,2022,D,RHD,OHL,Ontario,North America,CAN,CAN,0,1.1821900145571633,Early
+525,2022_665087,Lian Bichsel,Bichsel,Lian,2022,D,LHD,SHL,Sweden,Europe,EUR,SWE,0.7073170731707317,2.1217328733966485,Early
+526,2022_665898,Daniil Orlov,Orlov,Daniil,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0,0.430555727485575,Late
+527,2022_670126,Sam Rinzel,Rinzel,Sam,2022,D,RHD,USHL,USA,North America,USA,USA,0,1.5580071580929573,Early
+528,2022_670295,Weston Knox,Knox,Weston,2022,D,LHD,USHS-MN,USA,North America,USA,USA,0,-0.32107855958601317,Early
+529,2022_670429,Otto Heinonen,Heinonen,Otto,2022,D,LHD,U20 SM-sarja,Finland,Europe,FIN,FIN,0.2222222222222222,-0.8848042748897044,Early
+530,2022_670882,Jake Richard,Richard,Jake,2022,F,W,USHL,USA,North America,USA,USA,0,0.3865205219502527,Early
+531,2022_672616,Bogdan Krokhalyov,Krokhalyov,Bogdan,2022,D,RHD,MHL,Russia,Europe,RUS,RUS,0,1.1821900145571633,Overage
+532,2022_672619,Danila Yurov,Yurov,Danila,2022,F,W,KHL,Russia,Europe,RUS,RUS,0.6153846153846154,0.3865205219502527,Late
+533,2022_672923,Jackson Edward,Edward,Jackson,2022,D,LHD,OHL,Ontario,North America,CAN,CAN,0,0.6184642992534721,Early
+534,2022_673794,Jackson Kyrkostas,Kyrkostas,Jackson,2022,F,C,USHS-Prep,USA,North America,USA,USA,0,-1.0023029306344338,Early
+535,2022_674032,Joey Muldowney,Muldowney,Joey,2022,F,W,USHS-Prep,USA,North America,USA,USA,0,-0.48149413591517637,Early
+536,2022_675914,Brice Cooke,Cooke,Brice,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,0.3865205219502527,Early
+537,2022_675929,Kaden Muir,Muir,Kaden,2022,D,RHD,USDP,USA,North America,USA,USA,0,0.054738583949780935,Early
+538,2022_676668,Gregory Weber,Weber,Gregory,2022,F,F,U20-Elit,Switzerland,Europe,EUR,EUR,0,-1.5231117253536912,Early
+539,2022_679585,Yegor Sidorov,Sidorov,Yegor,2022,F,F,WHL,Western Canada,North America,EUR,CAN,0,-0.13428827276900474,Early
+540,2022_682496,Maks Percic,Percic,Maks,2022,D,RHD,U20 SM-sarja,Finland,Europe,EUR,FIN,0,0.430555727485575,Early
+541,2022_682665,Marcel Mahkovec,Mahkovec,Marcel,2022,F,F,Germany3,Germany,Europe,EUR,EUR,0.8,-0.48149413591517637,Late
+542,2022_690696,Maxim Muranov,Muranov,Maxim,2022,F,F,WHL,Western Canada,North America,RUS,CAN,0,0.7337263850964243,Early
+543,2022_690807,Gleb Trikozov,Trikozov,Gleb,2022,F,W,MHL,Russia,Europe,RUS,RUS,0.1864406779661017,0.3865205219502527,Early
+544,2022_690893,Ruslan Gazizov,Gazizov,Ruslan,2022,F,F,OHL,Ontario,North America,RUS,CAN,0,-0.48149413591517637,Early
+545,2022_691672,Abakar Kazbekov,Kazbekov,Abakar,2022,F,F,OHL,Ontario,North America,RUS,CAN,0,0.3865205219502527,Early
+546,2022_691685,Nikolai Tishkevich,Tishkevich,Nikolai,2022,F,F,Belarus Vysshaya,Belarus,Europe,EUR,EUR,1,-0.48149413591517637,Early
+547,2022_691857,Jace Weir,Weir,Jace,2022,D,RHD,WHL,Western Canada,North America,CAN,CAN,0,0.6184642992534721,Early
+548,2022_691875,Austin Roest,Roest,Austin,2022,F,F,WHL,Western Canada,North America,CAN,CAN,0,-0.828699999061348,Early
+549,2022_693397,Alexander Ponomaryov,Ponomaryov,Alexander,2022,F,W,MHL,Russia,Europe,RUS,RUS,0.11290322580645161,-1.3495087937806054,Late
+550,2022_694398,Ben MacDonald,MacDonald,Ben,2022,F,C,USHS-Prep,USA,North America,USA,USA,0,0.039314658804081075,Early
+551,2022_698623,Ilya Kvochko,Kvochko,Ilya,2022,F,F,MHL,Russia,Europe,RUS,RUS,0.015384615384615385,-1.3495087937806054,Early
+552,2022_698717,Dmitri Buchelnikov,Buchelnikov,Dmitri,2022,F,W,MHL,Russia,Europe,RUS,RUS,0,-0.828699999061348,Overage
+553,2022_698860,Pavel Leuka,Leuka,Pavel,2022,F,F,MHL,Russia,Europe,RUS,RUS,0.12658227848101267,0.5601234535233385,Overage
+554,2022_698862,Nikita Blednov,Blednov,Nikita,2022,F,F,VHL,Russia,Europe,RUS,RUS,0.7333333333333333,-0.48149413591517637,Late
+555,2022_698897,Yegor Kuimov,Kuimov,Yegor,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,1.4281381113887675,Overage
+556,2022_698977,Yaroslav Trofimov,Trofimov,Yaroslav,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0,0.054738583949780935,Overage
+557,2022_698996,Yaroslav Yapparov,Yapparov,Yaroslav,2022,F,F,MHL,Russia,Europe,RUS,RUS,0.02666666666666667,1.0809322482425958,Early
+558,2022_699057,Klim Shindyayev,Shindyayev,Klim,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,-0.48149413591517637,Early
+559,2022_699160,Maxim Barbashev,Barbashev,Maxim,2022,F,W,QMJHL,Quebec/Atlantic Canada,North America,RUS,CAN,0,0.3865205219502527,Late
+560,2022_699360,Andrei Malyavin,Malyavin,Andrei,2022,D,LHD,OHL,Ontario,North America,RUS,CAN,0,-1.0727128466576015,Early
+561,2022_699365,Kirill Kudryavtsev,Kudryavtsev,Kirill,2022,D,LHD,OHL,Ontario,North America,RUS,CAN,0,-0.32107855958601317,Early
+562,2022_699552,Daniil Davydov,Davydov,Daniil,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,-0.30789120434209055,Early
+563,2022_699554,Semyon Sinyatkin,Sinyatkin,Semyon,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,-0.48149413591517637,Early
+564,2022_699960,Nikita Yevseyev,Yevseyev,Nikita,2022,D,LHD,VHL,Russia,Europe,RUS,RUS,0.6029411764705882,0.242647155717678,Early
+565,2022_699971,Raul Yakupov,Yakupov,Raul,2022,F,F,MHL,Russia,Europe,RUS,RUS,0.01818181818181818,0.3865205219502527,Early
+566,2022_701870,Anton Johansson,Johansson,Anton,2022,D,RHD,J20 Nationell,Sweden,Europe,SWE,SWE,0.09523809523809523,1.5580071580929573,Early
+567,2022_702280,Kevin Reidler,Reidler,Kevin,2022,G,G,J18 Nationell,Sweden,Europe,SWE,SWE,0,2.0537840229429962,Early
+568,2022_703625,Yann Voegeli,Voegeli,Yann,2022,D,LHD,U20-Elit,Switzerland,Europe,EUR,EUR,0,0.242647155717678,Early
+569,2022_704354,Rodwin Dionicio,Dionicio,Rodwin,2022,D,LHD,OHL,Ontario,North America,EUR,CAN,0,0.430555727485575,Early
+570,2022_704963,Veit Oswald,Oswald,Veit,2022,F,F,DNL U20,Germany,Europe,EUR,EUR,0,0.3865205219502527,Early
+571,2022_707283,Sergei Murashov,Murashov,Sergei,2022,G,G,MHL,Russia,Europe,RUS,RUS,0,-1.1454344828931033,Early
+572,2022_707284,Alexander Pelevin,Pelevin,Alexander,2022,D,LHD,MHL,Russia,Europe,RUS,RUS,0.07142857142857142,0.054738583949780935,Early
+573,2022_707885,Maxim Mayorov,Mayorov,Maxim,2022,G,G,MHL,Russia,Europe,RUS,RUS,0,1.85383286632824,Early
+574,2022_708589,Ilya Rogovsky,Rogovsky,Ilya,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,-0.30789120434209055,Early
+575,2022_708714,German Shulenin,Shulenin,German,2022,F,F,MHL,Russia,Europe,RUS,RUS,0,-2.2175234516460343,Early
+576,2022_709023,Vsevolod Komarov,Komarov,Vsevolod,2022,D,RHD,QMJHL,Quebec/Atlantic Canada,North America,RUS,CAN,0,0.6184642992534721,Early
+577,2022_709571,Rasmus Vuorinen,Vuorinen,Rasmus,2022,D,LHD,U20 SM-sarja,Finland,Europe,FIN,FIN,0,-1.0727128466576015,Early
+578,2022_710467,Luca D'Amato,D'Amato,Luca,2022,D,RHD,OHL,Ontario,North America,CAN,CAN,0,-2.200164277264984,Early
+579,2022_710468,Lucas Buzziol,Buzziol,Lucas,2022,F,C,OJHL,Ontario,North America,CAN,CAN,0,-1.0023029306344338,Early
+580,2022_713317,Kai Schwindt,Schwindt,Kai,2022,F,W,OHL,Ontario,North America,CAN,CAN,0,1.775343974534939,Late
+581,2022_717868,Pavel Kamko,Kamko,Pavel,2022,D,LHD,NMHL,Russia,Europe,EUR,RUS,0,1.9338243016287515,Early
+582,2022_722676,Alexander Muromtsev,Muromtsev,Alexander,2022,F,F,Belarus Vysshaya,Belarus,Europe,EUR,EUR,1,1.4281381113887675,Early
+583,2022_750194,Niklas Hubner,Hubner,Niklas,2022,D,LHD,DNL U20,Germany,Europe,EUR,EUR,0.2631578947368421,0.8063728710213691,Early
+584,2022_794486,Vladislav Pashuto,Pashuto,Vladislav,2022,D,LHD,Belarus Vysshaya,Belarus,Europe,EUR,EUR,1,0.430555727485575,Early
+585,2022_794487,Ivan Shatilo,Shatilo,Ivan,2022,D,LHD,Belarus Vysshaya,Belarus,Europe,EUR,EUR,1,-0.5089871313539103,Early
