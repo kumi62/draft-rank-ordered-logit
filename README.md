@@ -23,7 +23,7 @@ Upon obtaining the raw data from our Data Collection phase, there are steps requ
 
 - **Create player-level covariates**: In the corresponding paper, we incorporate the three covariates containing player-level information into the model: 1) whether or not the player is an overager, 2) a weighted proportion of games played by the player at the professional men's level, and 3) the player's height, z-scored by position and draft year. In our Data Preparation phase we store these covariates for each player in each ranking set to be used when fitting our model.
 
-- **Structuring data for modelling**: We use Stan in order to fit a Bayesian model to predict the outcome of the NHL draft. Thus, we store all relevant materials for fitting our model in a list in R (the required format for modelling with `rstan`) so that the data is prepared to and ready to be utilized in the Modelling step without any additional preprocessing.
+- **Structuring data for modelling**: We use Stan in order to fit a Bayesian model to predict the outcome of the NHL draft. Thus, we store all relevant materials for fitting our model in a list in R (the required format for modelling with `rstan`) so that the data is prepared and ready to be utilized in the Modelling step without any additional preprocessing.
 
 The `code/scripts/data_preparation.R` script contains a step-by-step walkthrough of our Data Preparation phase. Resulting data can be found in the `data/model_input` subdirectory.
 
@@ -43,7 +43,7 @@ Collectively, these three models take over 36 hours to fit using a 16-core MacBo
 
 ## Draft Simulations
 
-Upon fitting the models, we use analyze the model parameters and the posterior draws to simulate the NHL draft in various scenarios in the 'Sample Results' sections of `code/scripts/model_no_covariates.R` and `code/scripts/model_with_covariates.R`. These simulations are powered by Stan and the `rstan::gqs` function with the corresponding Stan code found in `code/models/simulations_no_covariates.stan` and `code/models/simulations_with_covariates.stan`.
+Upon fitting the models, we use the model parameters and the posterior draws to simulate the NHL draft in various scenarios in the 'Sample Results' sections of `code/scripts/model_no_covariates.R` and `code/scripts/model_with_covariates.R`. These simulations are powered by Stan and the `rstan::gqs` function with the corresponding Stan code found in `code/models/simulations_no_covariates.stan` and `code/models/simulations_with_covariates.stan`.
 
 
 ## Reproducibility
